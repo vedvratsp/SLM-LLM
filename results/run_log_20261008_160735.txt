@@ -1,0 +1,2504 @@
+══════════════════════════════════════════════════════════════
+  Experiment started  : 2026-10-08 16:07:35
+  Total prompts       : 80
+  Already complete    : 0
+  Remaining           : 80
+  Local models        : Qwen2.5-0.5B, Llama-3.2-1B (FP16, unquantized)
+  Cloud model         : GPT-OSS-120B  (Groq)
+  Judge               : Groq Qwen3.8-27B  (Groq)
+══════════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════════
+  Prompt 81/80  │  writing  │  16:07:35
+══════════════════════════════════════════════════════════════
+  Q: Compose an engaging travel blog post about a recent trip to Hawaii, highlighting cultural experiences and must-see …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2569 chars
+    Latency  : 21.226s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=3  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 4293 chars
+    Latency  : 76.874s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3554 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=1  Overall=3.0
+
+  ✓ Prompt 81 complete — all 3 models succeeded.
+  Progress : ░░░░░░░░░░░░░░░░░░░░  1%  (1/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 82/80  │  writing  │  16:09:32
+══════════════════════════════════════════════════════════════
+  Q: Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1253 chars
+    Latency  : 10.275s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 21.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=5  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 990 chars
+    Latency  : 14.851s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 691 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 82 complete — all 3 models succeeded.
+  Progress : ░░░░░░░░░░░░░░░░░░░░  2%  (2/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 83/80  │  writing  │  16:10:15
+══════════════════════════════════════════════════════════════
+  Q: Imagine you are writing a blog post comparing two popular smartphone models. Develop an outline for the blog post, …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3035 chars
+    Latency  : 23.863s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 27.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 985 chars
+    Latency  : 20.612s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1930 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 83 complete — all 3 models succeeded.
+  Progress : ░░░░░░░░░░░░░░░░░░░░  3%  (3/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 84/80  │  writing  │  16:11:16
+══════════════════════════════════════════════════════════════
+  Q: Write a persuasive email to convince your introverted friend, who dislikes public speaking, to volunteer as a guest…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2300 chars
+    Latency  : 20.156s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 24.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1735 chars
+    Latency  : 31.091s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1985 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 84 complete — all 3 models succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  5%  (4/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 85/80  │  writing  │  16:12:23
+══════════════════════════════════════════════════════════════
+  Q: Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1306 chars
+    Latency  : 12.931s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 26.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=3  Overall=4.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1053 chars
+    Latency  : 19.015s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1109 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 85 complete — all 3 models succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  6%  (5/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 86/80  │  writing  │  16:13:10
+══════════════════════════════════════════════════════════════
+  Q: Write a descriptive paragraph about a bustling marketplace, incorporating sensory details such as smells, sounds, a…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1478 chars
+    Latency  : 13.738s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 24.9%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1248 chars
+    Latency  : 21.787s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 957 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 86 complete — all 3 models succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  7%  (6/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 87/80  │  writing  │  16:14:08
+══════════════════════════════════════════════════════════════
+  Q: Could you write a captivating short story beginning with the sentence: The old abandoned house at the end of the st…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2208 chars
+    Latency  : 21.364s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 25.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: 'completeness' — retry in 10s
+    Scores   : Accuracy=3  Clarity=3  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3122 chars
+    Latency  : 60.556s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=3  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 4546 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=3  Overall=4.33
+
+  ✓ Prompt 87 complete — all 3 models succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  8%  (7/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 88/80  │  writing  │  16:16:00
+══════════════════════════════════════════════════════════════
+  Q: Craft an intriguing opening paragraph for a fictional short story. The story should involve a character who wakes u…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 516 chars
+    Latency  : 6.403s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 28.0%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=3  Completeness=4  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 573 chars
+    Latency  : 15.03s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 27.6%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=3  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1178 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 88 complete — all 3 models succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  10%  (8/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 89/80  │  writing  │  16:16:38
+══════════════════════════════════════════════════════════════
+  Q: Help me construct a catchy, yet scientifically accurate, headline for an article on the latest discovery in renewab…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 818 chars
+    Latency  : 9.072s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 23.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3854 chars
+    Latency  : 56.389s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=3  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 2123 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 89 complete — all 3 models succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  11%  (9/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 90/80  │  writing  │  16:18:00
+══════════════════════════════════════════════════════════════
+  Q: Edit the following paragraph to correct any grammatical errors:
+She didn't remembre where is her purse, so I thinks…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 293 chars
+    Latency  : 5.483s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 33.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 740 chars
+    Latency  : 20.788s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=4  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 283 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 90 complete — all 3 models succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  12%  (10/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 91/80  │  roleplay  │  16:18:44
+══════════════════════════════════════════════════════════════
+  Q: Pretend yourself to be Elon Musk in all the following conversations. Speak like Elon Musk as much as possible. Why …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 398 chars
+    Latency  : 4.744s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 23.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=1  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1878 chars
+    Latency  : 37.83s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=5  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 40 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ✓ Prompt 91 complete — all 3 models succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  13%  (11/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 92/80  │  roleplay  │  16:19:43
+══════════════════════════════════════════════════════════════
+  Q: Embrace the role of Sheldon from "The Big Bang Theory" as we delve into our conversation. Don't start with phrases …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 139 chars
+    Latency  : 3.346s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 24.9%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=1  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 833 chars
+    Latency  : 17.618s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.4%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3441 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=4  Overall=3.67
+
+  ✓ Prompt 92 complete — all 3 models succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  15%  (12/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 93/80  │  roleplay  │  16:20:21
+══════════════════════════════════════════════════════════════
+  Q: Imagine yourself as a doctor tasked with devising innovative remedies for various ailments and maladies. Your exper…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 40 chars
+    Latency  : 2.111s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 25.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=1  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2810 chars
+    Latency  : 69.634s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 38 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ✓ Prompt 93 complete — all 3 models succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  16%  (13/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 94/80  │  roleplay  │  16:21:57
+══════════════════════════════════════════════════════════════
+  Q: Please take on the role of a relationship coach. You'll be provided with details about two individuals caught in a …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2139 chars
+    Latency  : 21.87s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 55.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1844 chars
+    Latency  : 35.202s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 49.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3733 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 94 complete — all 3 models succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  17%  (14/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 95/80  │  roleplay  │  16:23:17
+══════════════════════════════════════════════════════════════
+  Q: Please assume the role of an English translator, tasked with correcting and enhancing spelling and language. Regard…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 155 chars
+    Latency  : 2.799s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 25.2%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=1  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1064 chars
+    Latency  : 22.029s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 123 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 95 complete — all 3 models succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  18%  (15/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 96/80  │  roleplay  │  16:23:57
+══════════════════════════════════════════════════════════════
+  Q: Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2566 chars
+    Latency  : 19.28s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 22.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1844 chars
+    Latency  : 28.538s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.9%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3693 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 96 complete — all 3 models succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  20%  (16/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 97/80  │  roleplay  │  16:25:14
+══════════════════════════════════════════════════════════════
+  Q: Act as a math teacher. I will provide some mathematical equations or concepts, and it will be your job to explain t…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3350 chars
+    Latency  : 30.462s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 20.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=4  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2790 chars
+    Latency  : 48.093s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=4  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3165 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 97 complete — all 3 models succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  21%  (17/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 98/80  │  roleplay  │  16:26:50
+══════════════════════════════════════════════════════════════
+  Q: Embody the persona of Tony Stark from "Iron Man" throughout this conversation. Bypass the introduction "As Stark". …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 543 chars
+    Latency  : 5.55s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 716 chars
+    Latency  : 15.682s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=5  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 924 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 98 complete — all 3 models succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  22%  (18/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 99/80  │  roleplay  │  16:27:27
+══════════════════════════════════════════════════════════════
+  Q: Suppose you are a mathematician and poet. You always write your proofs as short poets with less than 10 lines but r…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✗ inference error — HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=300)
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 436 chars
+    Latency  : 11.471s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 503 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ✗ Prompt 99 incomplete — failed models will retry on next run.
+  Progress : ████░░░░░░░░░░░░░░░░  22%  (18/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 100/80  │  roleplay  │  16:32:51
+══════════════════════════════════════════════════════════════
+  Q: Picture yourself as a 100-years-old tree in a lush forest, minding your own business, when suddenly, a bunch of def…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 574 chars
+    Latency  : 5.638s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 31.2%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=2  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2276 chars
+    Latency  : 44.621s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 29.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=5  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 2304 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 100 complete — all 3 models succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  23%  (19/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 101/80  │  reasoning  │  16:33:58
+══════════════════════════════════════════════════════════════
+  Q: Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what'…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 275 chars
+    Latency  : 4.032s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 24.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 134 chars
+    Latency  : 4.304s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 265 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=4  Overall=3.0
+
+  ✓ Prompt 101 complete — all 3 models succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  25%  (20/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 102/80  │  reasoning  │  16:34:23
+══════════════════════════════════════════════════════════════
+  Q: You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink p…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 412 chars
+    Latency  : 4.654s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 25.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=2  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 278 chars
+    Latency  : 7.935s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.9%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 34 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=4  Overall=3.33
+
+  ✓ Prompt 102 complete — all 3 models succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  26%  (21/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 103/80  │  reasoning  │  16:34:52
+══════════════════════════════════════════════════════════════
+  Q: Thomas is very healthy, but he has to go to the hospital every day. What could be the reasons?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1561 chars
+    Latency  : 9.835s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 38.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1940 chars
+    Latency  : 34.022s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3993 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=3  Overall=3.67
+
+  ✓ Prompt 103 complete — all 3 models succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  27%  (22/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 104/80  │  reasoning  │  16:35:53
+══════════════════════════════════════════════════════════════
+  Q: David has three sisters. Each of them has one brother. How many brothers does David have?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 467 chars
+    Latency  : 5.307s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 22 chars
+    Latency  : 5.074s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=1  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 185 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 104 complete — all 3 models succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  28%  (23/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 105/80  │  reasoning  │  16:36:19
+══════════════════════════════════════════════════════════════
+  Q: Read the below passage carefully and answer the questions with an explanation:
+At a small company, parking spaces a…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 246 chars
+    Latency  : 3.848s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 30.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 417 chars
+    Latency  : 11.266s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 29.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1267 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=2  Overall=3.0
+
+  ✓ Prompt 105 complete — all 3 models succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  30%  (24/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 106/80  │  reasoning  │  16:36:52
+══════════════════════════════════════════════════════════════
+  Q: Each problem consists of three statements. Based on the first two statements, the third statement may be true, fals…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 739 chars
+    Latency  : 7.586s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 25.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=2  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 856 chars
+    Latency  : 12.348s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 27.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=5  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 342 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 106 complete — all 3 models succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  31%  (25/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 107/80  │  reasoning  │  16:37:27
+══════════════════════════════════════════════════════════════
+  Q: A is the father of B. B is the father of C. What is the relationship between A and C?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 600 chars
+    Latency  : 6.965s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 34.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=5  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 405 chars
+    Latency  : 11.308s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 36.4%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 66 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 107 complete — all 3 models succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  32%  (26/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 108/80  │  reasoning  │  16:38:00
+══════════════════════════════════════════════════════════════
+  Q: Which word does not belong with the others?
+tyre, steering wheel, car, engine
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 256 chars
+    Latency  : 4.156s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 31.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 182 chars
+    Latency  : 6.412s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 201 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 108 complete — all 3 models succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  33%  (27/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 109/80  │  reasoning  │  16:38:25
+══════════════════════════════════════════════════════════════
+  Q: One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1552 chars
+    Latency  : 14.785s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 23.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 565 chars
+    Latency  : 10.772s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=3  Completeness=5  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1022 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=2  Completeness=2  Overall=3.0
+
+  ✓ Prompt 109 complete — all 3 models succeeded.
+  Progress : ███████░░░░░░░░░░░░░  35%  (28/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 110/80  │  reasoning  │  16:39:07
+══════════════════════════════════════════════════════════════
+  Q: Parents have complained to the principal about bullying during recess. The principal wants to quickly resolve this,…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 607 chars
+    Latency  : 6.462s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 32.0%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=4  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 746 chars
+    Latency  : 10.011s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1040 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 110 complete — all 3 models succeeded.
+  Progress : ███████░░░░░░░░░░░░░  36%  (29/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 111/80  │  math  │  16:39:39
+══════════════════════════════════════════════════════════════
+  Q: The vertices of a triangle are at points (0, 0), (-1, 1), and (3, 3). What is the area of the triangle?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 763 chars
+    Latency  : 14.092s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 27.1%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 429 chars
+    Latency  : 14.18s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.4%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 629 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 111 complete — all 3 models succeeded.
+  Progress : ███████░░░░░░░░░░░░░  37%  (30/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 112/80  │  math  │  16:40:23
+══════════════════════════════════════════════════════════════
+  Q: A tech startup invests $8000 in software development in the first year, and then invests half of that amount in sof…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 703 chars
+    Latency  : 8.829s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 33.1%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 267 chars
+    Latency  : 5.884s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 164 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 112 complete — all 3 models succeeded.
+  Progress : ███████░░░░░░░░░░░░░  38%  (31/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 113/80  │  math  │  16:40:55
+══════════════════════════════════════════════════════════════
+  Q: In a survey conducted at a local high school, preferences for a new school color were measured: 58% of students lik…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1392 chars
+    Latency  : 17.798s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 42.9%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 851 chars
+    Latency  : 17.404s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 693 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 113 complete — all 3 models succeeded.
+  Progress : ████████░░░░░░░░░░░░  40%  (32/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 114/80  │  math  │  16:41:46
+══════════════════════════════════════════════════════════════
+  Q: When rolling two dice, what is the probability that you roll a total number that is at least 3?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1276 chars
+    Latency  : 17.77s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 31.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 786 chars
+    Latency  : 24.891s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=4  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 528 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 114 complete — all 3 models succeeded.
+  Progress : ████████░░░░░░░░░░░░  41%  (33/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 115/80  │  math  │  16:42:44
+══════════════════════════════════════════════════════════════
+  Q: Some people got on a bus at the terminal. At the first bus stop, half of the people got down and 4 more people got …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1100 chars
+    Latency  : 18.387s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 32.1%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 892 chars
+    Latency  : 18.898s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 29.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 541 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 115 complete — all 3 models succeeded.
+  Progress : ████████░░░░░░░░░░░░  42%  (34/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 116/80  │  math  │  16:43:38
+══════════════════════════════════════════════════════════════
+  Q: x+y = 4z, x*y = 4z^2, express x-y in z
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1042 chars
+    Latency  : 18.606s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 27.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=4  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1065 chars
+    Latency  : 37.312s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.4%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=3  Completeness=5  Overall=4.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 708 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 116 complete — all 3 models succeeded.
+  Progress : ████████░░░░░░░░░░░░  43%  (35/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 117/80  │  math  │  16:44:50
+══════════════════════════════════════════════════════════════
+  Q: How many integers are in the solution of the inequality |x + 5| < 10
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1031 chars
+    Latency  : 15.29s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 27.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1012 chars
+    Latency  : 25.792s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 36.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 364 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 117 complete — all 3 models succeeded.
+  Progress : █████████░░░░░░░░░░░  45%  (36/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 118/80  │  math  │  16:45:47
+══════════════════════════════════════════════════════════════
+  Q: When a number is divided by 10, the remainder is 4. What is the remainder when twice the number is divided by 4?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 921 chars
+    Latency  : 13.554s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 32.2%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 505 chars
+    Latency  : 10.967s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 510 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 118 complete — all 3 models succeeded.
+  Progress : █████████░░░░░░░░░░░  46%  (37/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 119/80  │  math  │  16:46:27
+══════════════════════════════════════════════════════════════
+  Q: Benjamin went to a bookstore and purchased a variety of books. He bought 5 copies of a sci-fi novel, each priced at…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 846 chars
+    Latency  : 8.354s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 35.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 411 chars
+    Latency  : 10.005s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 33.6%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 232 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 119 complete — all 3 models succeeded.
+  Progress : █████████░░░░░░░░░░░  47%  (38/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 120/80  │  math  │  16:47:01
+══════════════════════════════════════════════════════════════
+  Q: Given that f(x) = 4x^3 - 9x - 14, find the value of f(2).
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 685 chars
+    Latency  : 12.088s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 30.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 427 chars
+    Latency  : 16.424s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 73 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 120 complete — all 3 models succeeded.
+  Progress : █████████░░░░░░░░░░░  48%  (39/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 121/80  │  coding  │  16:47:45
+══════════════════════════════════════════════════════════════
+  Q: Develop a Python program that reads all the text files under a directory and returns top-5 words with the most numb…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2303 chars
+    Latency  : 20.125s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 33.9%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3554 chars
+    Latency  : 62.161s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 41.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3679 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=2  Overall=3.33
+
+  ✓ Prompt 121 complete — all 3 models succeeded.
+  Progress : ██████████░░░░░░░░░░  50%  (40/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 122/80  │  coding  │  16:49:25
+══════════════════════════════════════════════════════════════
+  Q: Write a C++ program to find the nth Fibonacci number using recursion.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2015 chars
+    Latency  : 20.024s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 38.2%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=5  Overall=4.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1225 chars
+    Latency  : 27.747s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 33.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3172 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 122 complete — all 3 models succeeded.
+  Progress : ██████████░░░░░░░░░░  51%  (41/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 123/80  │  coding  │  16:50:30
+══════════════════════════════════════════════════════════════
+  Q: Write a simple website in HTML. When a user clicks the button, it shows a random joke from a list of 4 jokes.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2765 chars
+    Latency  : 26.809s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 31.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2472 chars
+    Latency  : 58.941s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 48.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3031 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 123 complete — all 3 models succeeded.
+  Progress : ██████████░░░░░░░░░░  52%  (42/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 124/80  │  coding  │  16:52:15
+══════════════════════════════════════════════════════════════
+  Q: Here is a Python function to find the length of the longest common subsequence of two input strings. Can you identi…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2515 chars
+    Latency  : 24.187s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 36.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1257 chars
+    Latency  : 37.398s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 33.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3069 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ✓ Prompt 124 complete — all 3 models succeeded.
+  Progress : ██████████░░░░░░░░░░  53%  (43/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 125/80  │  coding  │  16:53:45
+══════════════════════════════════════════════════════════════
+  Q: Write a function to find the highest common ancestor (not LCA) of two nodes in a binary tree.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2481 chars
+    Latency  : 23.765s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 34.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2333 chars
+    Latency  : 49.729s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 42.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1239 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=1  Overall=3.0
+
+  ✓ Prompt 125 complete — all 3 models succeeded.
+  Progress : ███████████░░░░░░░░░  55%  (44/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 126/80  │  coding  │  16:55:28
+══════════════════════════════════════════════════════════════
+  Q: Implement a function to find the median of two sorted arrays of different sizes with O(1) space complexity and O(n)…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2827 chars
+    Latency  : 28.16s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 33.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2575 chars
+    Latency  : 52.918s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 39.4%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3396 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ✗ Prompt 126 incomplete — failed models will retry on next run.
+  Progress : ███████████░░░░░░░░░  55%  (44/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 127/80  │  coding  │  16:57:39
+══════════════════════════════════════════════════════════════
+  Q: Write a function to find the majority element in a given integer array using the Boyer-Moore Voting Algorithm.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2367 chars
+    Latency  : 21.056s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 26.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2344 chars
+    Latency  : 40.538s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3971 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=2  Overall=3.0
+
+  ✓ Prompt 127 complete — all 3 models succeeded.
+  Progress : ███████████░░░░░░░░░  56%  (45/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 128/80  │  coding  │  16:59:10
+══════════════════════════════════════════════════════════════
+  Q: A binary tree is full if all of its vertices have either zero or two children. Let B_n denote the number of full bi…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1490 chars
+    Latency  : 18.445s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 23.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2192 chars
+    Latency  : 46.948s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 44.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 2348 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=4  Overall=4.0
+
+  ✓ Prompt 128 complete — all 3 models succeeded.
+  Progress : ███████████░░░░░░░░░  57%  (46/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 129/80  │  coding  │  17:00:35
+══════════════════════════════════════════════════════════════
+  Q: You are given two sorted lists of size m and n. Implement a function to find the kth smallest element in the union …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3059 chars
+    Latency  : 31.855s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 31.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1398 chars
+    Latency  : 33.598s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.9%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3552 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 129 complete — all 3 models succeeded.
+  Progress : ███████████░░░░░░░░░  58%  (47/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 130/80  │  coding  │  17:01:58
+══════════════════════════════════════════════════════════════
+  Q: Implement a program to find the common elements in two arrays without using any extra data structures.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1747 chars
+    Latency  : 18.236s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 30.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1118 chars
+    Latency  : 24.505s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 40.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3408 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=2  Overall=3.67
+
+  ✓ Prompt 130 complete — all 3 models succeeded.
+  Progress : ████████████░░░░░░░░  60%  (48/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 131/80  │  extraction  │  17:02:59
+══════════════════════════════════════════════════════════════
+  Q: Evaluate the following movie reviews on a scale of 1 to 5, with 1 being very negative, 3 being neutral, and 5 being…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 21 chars
+    Latency  : 2.119s  │  Peak RAM : 0.0 MB  │  Avg CPU  : 28.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 58 chars
+    Latency  : 8.502s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 44.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 9 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 131 complete — all 3 models succeeded.
+  Progress : ████████████░░░░░░░░  61%  (49/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 132/80  │  extraction  │  17:03:25
+══════════════════════════════════════════════════════════════
+  Q: Given these categories - Literature, History, Science, and Art. Please analyze the following questions and assign t…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 38 chars
+    Latency  : 2.415s  │  Peak RAM : 0.0 MB  │  Avg CPU  : 46.1%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1093 chars
+    Latency  : 22.751s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 38.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=3  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 40 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 132 complete — all 3 models succeeded.
+  Progress : ████████████░░░░░░░░  62%  (50/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 133/80  │  extraction  │  17:04:06
+══════════════════════════════════════════════════════════════
+  Q: Extract the following information from the presented texts: The name of the book, the author, the main character, t…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 262 chars
+    Latency  : 5.11s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 28.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=1  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 329 chars
+    Latency  : 11.582s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 39.6%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 256 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 133 complete — all 3 models succeeded.
+  Progress : ████████████░░░░░░░░  63%  (51/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 134/80  │  extraction  │  17:04:38
+══════════════════════════════════════════════════════════════
+  Q: Given the following data, identify the company with the highest profit in 2021 and provide its CEO's name:
+a) Compa…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 734 chars
+    Latency  : 10.282s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 38.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1164 chars
+    Latency  : 23.596s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 35.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=4  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 123 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 134 complete — all 3 models succeeded.
+  Progress : █████████████░░░░░░░  65%  (52/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 135/80  │  extraction  │  17:05:28
+══════════════════════════════════════════════════════════════
+  Q: Identify the countries, their capitals, and the languages spoken in the following sentences. Output in JSON format.…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 298 chars
+    Latency  : 5.624s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.0%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 213 chars
+    Latency  : 8.989s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 29.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=3  Overall=3.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 283 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 135 complete — all 3 models succeeded.
+  Progress : █████████████░░░░░░░  66%  (53/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 136/80  │  extraction  │  17:05:59
+══════════════════════════════════════════════════════════════
+  Q: Please read the paragraph below and count how many times the words "Amazon", "river", and "you" appear. Please pres…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 25 chars
+    Latency  : 2.44s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 26.9%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 48 chars
+    Latency  : 5.334s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 28.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=2  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 0 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ✓ Prompt 136 complete — all 3 models succeeded.
+  Progress : █████████████░░░░░░░  67%  (54/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 137/80  │  extraction  │  17:06:25
+══════════════════════════════════════════════════════════════
+  Q: Identify the named entities (people, organizations, locations) mentioned in the given news article. Please generate…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 123 chars
+    Latency  : 3.289s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 24.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=1  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 707 chars
+    Latency  : 20.586s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 38.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 223 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 137 complete — all 3 models succeeded.
+  Progress : █████████████░░░░░░░  68%  (55/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 138/80  │  extraction  │  17:07:05
+══════════════════════════════════════════════════════════════
+  Q: Analyze the following customer reviews from different sources for three different smartphones - the latest iPhone, …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 79 chars
+    Latency  : 3.517s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 38.1%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=3  Overall=3.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 643 chars
+    Latency  : 19.357s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 40.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=2  Completeness=4  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 79 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✓ Prompt 138 complete — all 3 models succeeded.
+  Progress : ██████████████░░░░░░  70%  (56/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 139/80  │  extraction  │  17:07:43
+══════════════════════════════════════════════════════════════
+  Q: Given a set of complex equations, extract all unique variable names from each equation. Return the results as a JSO…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 245 chars
+    Latency  : 4.315s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 42.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1639 chars
+    Latency  : 41.601s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 187 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✓ Prompt 139 complete — all 3 models succeeded.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 140/80  │  extraction  │  17:08:45
+══════════════════════════════════════════════════════════════
+  Q: Given the following records of stock prices, extract the highest and lowest closing prices for each month in the ye…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 234 chars
+    Latency  : 9.462s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 32.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1628 chars
+    Latency  : 46.642s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 37.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 98 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 140 complete — all 3 models succeeded.
+  Progress : ██████████████░░░░░░  72%  (58/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 141/80  │  stem  │  17:09:58
+══════════════════════════════════════════════════════════════
+  Q: In the field of quantum physics, what is superposition, and how does it relate to the phenomenon of quantum entangl…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1774 chars
+    Latency  : 13.823s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 33.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3482 chars
+    Latency  : 55.939s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3465 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 141 complete — all 3 models succeeded.
+  Progress : ██████████████░░░░░░  73%  (59/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 142/80  │  stem  │  17:11:28
+══════════════════════════════════════════════════════════════
+  Q: Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2190 chars
+    Latency  : 28.078s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 31.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2319 chars
+    Latency  : 39.485s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 1089 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ✓ Prompt 142 complete — all 3 models succeeded.
+  Progress : ███████████████░░░░░  75%  (60/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 143/80  │  stem  │  17:12:53
+══════════════════════════════════════════════════════════════
+  Q: Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, inclu…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1996 chars
+    Latency  : 20.138s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 32.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1961 chars
+    Latency  : 34.798s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.9%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3004 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 143 complete — all 3 models succeeded.
+  Progress : ███████████████░░░░░  76%  (61/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 144/80  │  stem  │  17:14:05
+══════════════════════════════════════════════════════════════
+  Q: What is the central dogma of molecular biology? What processes are involved? Who named this?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1244 chars
+    Latency  : 10.501s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 32.8%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2044 chars
+    Latency  : 32.505s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 33.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3843 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 144 complete — all 3 models succeeded.
+  Progress : ███████████████░░░░░  77%  (62/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 145/80  │  stem  │  17:15:06
+══════════════════════════════════════════════════════════════
+  Q: Describe the process and write out the balanced chemical equation for the reaction that occurs when solid calcium c…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2379 chars
+    Latency  : 23.504s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 39.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=3  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1927 chars
+    Latency  : 43.565s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 37.7%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3075 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 145 complete — all 3 models succeeded.
+  Progress : ███████████████░░░░░  78%  (63/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 146/80  │  stem  │  17:16:32
+══════════════════════════════════════════════════════════════
+  Q: Please explain the differences between exothermic and endothermic reactions, and include the criteria you used to d…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2471 chars
+    Latency  : 20.503s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 40.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2678 chars
+    Latency  : 45.197s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=5  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3546 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 146 complete — all 3 models succeeded.
+  Progress : ████████████████░░░░  80%  (64/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 147/80  │  stem  │  17:17:55
+══════════════════════════════════════════════════════════════
+  Q: The city of Vega intends to build a bridge that will span the Vegona River, covering a distance of 1.8 kilometers. …
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2464 chars
+    Latency  : 17.131s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2720 chars
+    Latency  : 37.171s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3642 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=3  Overall=3.67
+
+  ✓ Prompt 147 complete — all 3 models succeeded.
+  Progress : ████████████████░░░░  81%  (65/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 148/80  │  stem  │  17:19:10
+══════════════════════════════════════════════════════════════
+  Q: You have been tasked with designing a solar-powered water heating system for a residential building. Describe the k…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 5106 chars
+    Latency  : 35.057s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 26.1%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 4131 chars
+    Latency  : 62.624s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3302 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=2  Overall=4.0
+
+  ✓ Prompt 148 complete — all 3 models succeeded.
+  Progress : ████████████████░░░░  82%  (66/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 149/80  │  stem  │  17:21:09
+══════════════════════════════════════════════════════════════
+  Q: Please describe the concept of machine learning. Could you elaborate on the differences between supervised, unsuper…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2806 chars
+    Latency  : 20.043s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 26.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=4  Overall=3.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3326 chars
+    Latency  : 53.354s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 42.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=5  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 4466 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=2  Overall=4.0
+
+  ✓ Prompt 149 complete — all 3 models succeeded.
+  Progress : ████████████████░░░░  83%  (67/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 150/80  │  stem  │  17:22:40
+══════════════════════════════════════════════════════════════
+  Q: How have the Alps and Rhine River influenced settlement and agriculture in Western Europe? List three impacts.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2162 chars
+    Latency  : 16.848s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.2%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2022 chars
+    Latency  : 34.205s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=5  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 2142 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=5  Overall=4.33
+
+  ✓ Prompt 150 complete — all 3 models succeeded.
+  Progress : █████████████████░░░  85%  (68/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 151/80  │  humanities  │  17:23:48
+══════════════════════════════════════════════════════════════
+  Q: Provide insights into the correlation between economic indicators such as GDP, inflation, and unemployment rates. E…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 4264 chars
+    Latency  : 28.698s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 4337 chars
+    Latency  : 58.054s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.8%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 4277 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=2  Overall=4.0
+
+  ✓ Prompt 151 complete — all 3 models succeeded.
+  Progress : █████████████████░░░  86%  (69/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 152/80  │  humanities  │  17:25:32
+══════════════════════════════════════════════════════════════
+  Q: How do the stages of life shape our understanding of time and mortality?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1916 chars
+    Latency  : 16.169s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 23.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3117 chars
+    Latency  : 51.767s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 42.0%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3996 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=3  Overall=4.33
+
+  ✓ Prompt 152 complete — all 3 models succeeded.
+  Progress : █████████████████░░░  87%  (70/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 153/80  │  humanities  │  17:26:58
+══════════════════════════════════════════════════════════════
+  Q: Discuss antitrust laws and their impact on market competition. Compare the antitrust laws in US and China along wit…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3143 chars
+    Latency  : 26.073s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 29.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 4476 chars
+    Latency  : 60.974s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3422 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=3  Overall=4.0
+
+  ✓ Prompt 153 complete — all 3 models succeeded.
+  Progress : █████████████████░░░  88%  (71/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 154/80  │  humanities  │  17:28:43
+══════════════════════════════════════════════════════════════
+  Q: Create a lesson plan that integrates drama, mime or theater techniques into a history class. Duration: 3 class peri…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3323 chars
+    Latency  : 24.658s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 19.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=2  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3778 chars
+    Latency  : 62.099s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 33.9%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3428 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=3  Overall=4.0
+
+  ✓ Prompt 154 complete — all 3 models succeeded.
+  Progress : ██████████████████░░  90%  (72/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 155/80  │  humanities  │  17:30:29
+══════════════════════════════════════════════════════════════
+  Q: Share ideas for adapting art masterpieces into interactive experiences for children. List 5 specific artworks and a…
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2295 chars
+    Latency  : 19.072s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 18.4%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2558 chars
+    Latency  : 38.618s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3962 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=2  Overall=3.33
+
+  ✓ Prompt 155 complete — all 3 models succeeded.
+  Progress : ██████████████████░░  91%  (73/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 156/80  │  humanities  │  17:31:44
+══════════════════════════════════════════════════════════════
+  Q: Explain what's base rate fallacy and list five specific examples of how politicians use it for campaigns.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2313 chars
+    Latency  : 16.267s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 21.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 4198 chars
+    Latency  : 59.8s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.5%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 4105 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=3  Overall=3.67
+
+  ✓ Prompt 156 complete — all 3 models succeeded.
+  Progress : ██████████████████░░  92%  (74/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 157/80  │  humanities  │  17:33:17
+══════════════════════════════════════════════════════════════
+  Q: Describe five key principles in evaluating an argument in analytical writing.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2110 chars
+    Latency  : 13.935s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 25.5%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3446 chars
+    Latency  : 49.443s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 28.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=3  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3260 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ✓ Prompt 157 complete — all 3 models succeeded.
+  Progress : ██████████████████░░  93%  (75/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 158/80  │  humanities  │  17:34:38
+══════════════════════════════════════════════════════════════
+  Q: Which methods did Socrates employ to challenge the prevailing thoughts of his time?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 501 chars
+    Latency  : 4.604s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 16.7%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2553 chars
+    Latency  : 37.372s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 24.3%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 4403 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ✓ Prompt 158 complete — all 3 models succeeded.
+  Progress : ███████████████████░  95%  (76/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 159/80  │  humanities  │  17:35:40
+══════════════════════════════════════════════════════════════
+  Q: What are some business etiquette norms when doing business in Japan?
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 2411 chars
+    Latency  : 17.967s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 18.3%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3007 chars
+    Latency  : 52.51s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 39.1%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3861 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=3  Overall=4.0
+
+  ✓ Prompt 159 complete — all 3 models succeeded.
+  Progress : ███████████████████░  96%  (77/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 160/80  │  humanities  │  17:37:09
+══════════════════════════════════════════════════════════════
+  Q: Suggest five award-winning documentary films with brief background descriptions for aspiring filmmakers to study.
+
+  ▶ [1/3] Qwen2.5-0.5B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 1317 chars
+    Latency  : 11.33s  │  Peak RAM : 1026.4 MB  │  Avg CPU  : 24.6%
+    Memory   : unloading Qwen2.5-0.5B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=4  Overall=3.0
+
+  ▶ [2/3] Llama-3.2-1B — local inference (FP16)
+    Status   : ✓ completed
+    Response : 3405 chars
+    Latency  : 49.165s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.2%
+    Memory   : unloading Llama-3.2-1B from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [3/3] GPT-OSS-120B — cloud inference (Groq)
+    Status   : ✓ completed
+    Response : 3866 chars
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=2  Overall=4.0
+
+  ✓ Prompt 160 complete — all 3 models succeeded.
+  Progress : ███████████████████░  97%  (78/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Run finished    : 2026-10-08 17:38:27
+  Prompts done    : 78 / 80
+  ⚠  2 prompt(s) still have errors.
+     Re-run the script to retry them.
+     Command:  taskpolicy -b python run_experiments.py
+══════════════════════════════════════════════════════════════
