@@ -1,0 +1,49 @@
+In linguistics, coreference, sometimes written co-reference, occurs when two or more expressions refer to the same person or thing; they have the same referent. For example, in Bill said Alice would arrive soon, and she did, the words Alice and she refer to the same person. 
+Co-reference is often not easy to work out. For example, in Bill said he would come, the word he may or may not refer to Bill. Determining which expressions are coreferences is an important part of analyzing or understanding the meaning, and often requires information from the context,
+real-world knowledge, such as tendencies of some names to be associated with particular species ("Rover"), kinds of artifacts ("Titanic"), grammatical genders, or other properties.
+Linguists commonly use indices to notate coreference, as in Billi said hei would come. Such expressions are said to be coindexed, indicating that they should be interpreted as coreferential.
+When expressions are coreferential, the first to occur is often a full or descriptive form (for example, an entire personal name, perhaps with a title and role), while later occurrences use shorter forms (for example, just a given name, surname, or pronoun). The earlier occurrence is known as the antecedent and the other is called a proform, anaphor, or reference. However, pronouns can sometimes refer forward, as in "When she arrived home, Alice went to sleep." In such cases, the coreference is called cataphoric rather than anaphoric.
+Coreference is important for binding phenomena in the field of syntax. The theory of binding explores the syntactic relationship that exists between coreferential expressions in sentences and texts.
+
+
+== Types ==
+When exploring coreference, numerous distinctions can be made, e.g. anaphora, cataphora, split antecedents, coreferring noun phrases, etc. Several of these more specific phenomena are illustrated here:
+
+Anaphora
+a. The musici was so loud that iti couldn't be enjoyed. –The anaphor it follows the expression to which it refers (its antecedent).
+b. Our neighborsi dislike the music. If theyi are angry, the cops will show up soon. – The anaphor they follows the expression to which it refers (its antecedent).
+Cataphora
+a. If theyi are angry about the music, the neighborsi will call the cops. – The cataphor they precedes the expression to which it refers (its postcedent).
+b. Despite heri difficulty, Wilmai came to understand the point. – The cataphor her precedes the expression to which it refers (its postcedent)
+Split antecedents
+a. Caroli told Bobi to attend the party. Theyi arrived together. – The anaphor they has a split antecedent, referring to both Carol and Bob.
+b. When Caroli helps Bobi and Bobi helps Caroli, theyi can accomplish any task. – The anaphor they has a split antecedent, referring to both Carol and Bob.
+Coreferring noun phrases
+a. The project leaderi is refusing to help. The jerki thinks only of himselfi. – Coreferring noun phrases, whereby the second noun phrase is a predication over the first.
+b. Some of our colleagues1 are going to be supportive. These kinds of people1 will earn our gratitude. – Coreferring noun phrases, whereby the second noun phrase is a predication over the first.
+
+
+== Relation to bound variables ==
+Semanticists and logicians sometimes draw a distinction between coreference and what is known as a bound variable. Bound variables occur when the antecedent to the proform is an indefinite quantified expression, e.g.
+
+Quantified expressions such as every student and no student are not considered referential. These expressions are grammatically singular but do not pick out single referents in the discourse or real world. Thus, the antecedents to his in these examples are not properly referential, and neither is his. Instead, it is considered a variable that is bound by its antecedent. Its reference varies based upon which of the students in the discourse world is thought of. The existence of bound variables is perhaps more apparent with the following example:
+
+This sentence is ambiguous. It can mean that Jack likes his grade but everyone else dislikes Jack's grade; or that no one likes their own grade except Jack. In the first meaning, his is coreferential; in the second, it is a bound variable because its reference varies over the set of all students. 
+Coindex notation is commonly used for both cases. That is, when two or more expressions are coindexed, it does not signal whether one is dealing with coreference or a bound variable (or as in the last example, whether it depends on interpretation).
+
+
+== Coreference resolution ==
+In computational linguistics, coreference resolution is a well-studied problem in discourse. To derive the correct interpretation of a text, or even to estimate the relative importance of various mentioned subjects, pronouns and other referring expressions must be connected to the right individuals. Algorithms intended to resolve coreferences commonly look first for the nearest preceding individual that is compatible with the referring expression. For example, she might attach to a preceding expression such as the woman or Anne, but not as probably to Bill. Pronouns such as himself have much stricter constraints. As with many linguistic tasks, there is a tradeoff between precision and recall. Cluster-quality metrics commonly used to evaluate coreference resolution algorithms include the Rand index, the adjusted Rand index, and different mutual information-based methods.
+A particular problem for coreference resolution in English is the pronoun it, which has many uses. It can refer much like he and she, except that it generally refers to inanimate objects (the rules are actually more complex: animals may be any of it, he, or she; ships are traditionally she; hurricanes are usually it despite having gendered names). It can also refer to abstractions rather than beings, e.g. He was paid minimum wage, but didn't seem to mind it. Finally, it also has pleonastic uses, which do not refer to anything specific:
+
+Pleonastic uses are not considered referential, and so are not part of coreference.
+Approaches to coreference resolution can broadly be separated into mention-pair, mention-ranking or entity-based algorithms. Mention-pair algorithms involve binary decisions if a pair of two given mentions belong to the same entity. Entity-wide constraints like gender are not considered, which leads to error propagation. For example, the pronouns he or she can both have a high probability of coreference with the teacher, but cannot be coreferent with each other. Mention-ranking algorithms expand on this idea but instead stipulate that one mention can only be coreferent with one (previous) mention. As a result, each previous mention must be given a score and the highest scoring mention (or no mention) is linked. Finally, in entity-based methods mentions are linked based on information of the whole coreference chain instead of individual mentions. The representation of a variable-width chain is more complex and computationally expensive than mention-based methods, which lead to these algorithms being mostly based on neural network architectures.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==

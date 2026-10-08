@@ -1,0 +1,65 @@
+A character is a person or being in a narrative (such as a novel, play or film). The character may be entirely fictional or based on a real-life person, in which case the distinction of a "fictional" versus "real" character may be made. Derived from the Ancient Greek word χαρακτήρ, the English word dates from the Restoration, although it became widely used after its appearance in Tom Jones by Henry Fielding in 1749. From this, the sense of "a part played by an actor" developed. (Before this development, the term dramatis personae, naturalized in English from Latin and meaning "masks of the drama", encapsulated the notion of characters from the literal aspect of masks.) A character, particularly when enacted by an actor in the theater or cinema, involves "the illusion of being a human person". In literature, characters guide readers through their stories, helping them to understand plots and ponder themes. Since the end of the 18th century, the phrase "in character" has been used to describe an effective impersonation by an actor. Since the 19th century, the art of creating characters, as practiced by actors or writers, has been called characterization.  
+A character who stands as a representative of a particular class or group of people is known as a type. Types include both stock characters and those that are more fully individualized. The characters in Henrik Ibsen's Hedda Gabler (1891) and August Strindberg's Miss Julie (1888), for example, are representative of specific positions in the social relations of class and gender, such that the conflicts between the characters reveal ideological conflicts.
+The study of a character requires an analysis of its relations with all of the other characters in the work. The individual status of a character is defined through the network of oppositions (proairetic, pragmatic, linguistic, proxemic) that it forms with the other characters. The relation between characters and the action of the story shifts historically, often miming shifts in society and its ideas about human individuality, self-determination, and the social order.
+
+
+== Creation ==
+In fiction writing, authors create dynamic characters using various methods. Sometimes characters are conjured up from imagination; in other instances, they are created by amplifying the character trait of a real person into a new fictional creation.
+
+
+=== Real people, in part or in full ===
+An author or creator basing a character on a real person can use a person they know, a historical figure, a current figure whom they have not met, or themselves, with the latter being either an author-surrogate or an example of self-insertion. The use of a famous person easily identifiable with certain character traits as the base for a principal character is a feature of allegorical works, such as Animal Farm by George Orwell, which portrays Soviet revolutionaries as pigs. Other authors, especially for historical fiction, make use of real people and create fictional stories revolving around their lives, as with The Paris Wife which revolves around Ernest Hemingway.
+
+
+=== Archetypes and stock characters ===
+
+An author can create a character using the basic character archetypes which are common to many cultural traditions: the father figure, mother figure, hero, and so on. Some writers make use of archetypes as presented by Carl Jung as the basis for character traits. Generally, when an archetype from some system (such as Jung's) is used, elements of the story also follow the system's expectations in terms of storyline.
+An author can also create a fictional character using generic stock characters, which are generally flat. They tend to be used for supporting or minor characters. However, some authors have used stock characters as the starting point for building richly detailed characters, such as William Shakespeare's use of the boastful soldier character as the basis for John Falstaff.
+Some authors create charactonyms for their characters. A charactonym is a name that implies the psychological makeup of the person, makes an allegorical allusion, or makes reference to their appearance. For example, Shakespeare has an emotional young male character named Mercutio, John Steinbeck has a kind, sweet character named Candy in Of Mice and Men, and Mervyn Peake has a Machiavellian, manipulative, and murderous villain in Gormenghast named Steerpike. The charactonym can also indicate appearance. For example, François Rabelais gave the name Gargantua to a giant, and the huge whale in Pinocchio (1940) is named Monstro.
+
+
+== Types ==
+
+
+=== Round vs. flat ===
+In his book Aspects of the Novel, E. M. Forster defined two basic types of characters, their qualities, functions, and importance for the development of the novel: flat characters and round characters. Flat characters are two-dimensional, in that they are relatively uncomplicated. By contrast, round characters are complex figures with many different characteristics, that undergo development, sometimes sufficiently to surprise the reader.
+In psychological terms, round or complex characters may be considered to have five personality dimensions under the Big Five model of personality. The five factors are:
+
+extraversion (outgoing/energetic vs. solitary/reserved)
+agreeableness (friendly/compassionate vs. critical/rational)
+openness to experience (inventive/curious vs. consistent/cautious)
+conscientiousness (efficient/organized vs. extravagant/careless)
+neuroticism (sensitive/nervous vs. resilient/confident)
+Stock characters are usually one-dimensional and thin. Mary Sues are characters that usually appear in fan fiction which are virtually devoid of flaws, and are therefore considered flat characters.
+Another type of flat character is a "walk-on", a term used by Seymour Chatman for characters that are not fully delineated and individualized; rather they are part of the background or the setting of the narrative.
+
+
+=== Dynamic vs. static ===
+
+Dynamic characters are those that change over the course of the story, while static characters remain the same throughout. An example of a popular dynamic character in literature is Ebenezer Scrooge, the protagonist of A Christmas Carol by Charles Dickens. At the start of the story, he is a bitter miser, but by the end of the tale, he transforms into a kindhearted, generous man.
+
+
+=== Regular, recurring and guest characters ===
+
+In television, a regular, main or ongoing character is a character who appears in all or a majority of episodes, or in a significant chain of episodes of the series. Regular characters may be both core and secondary ones.
+A recurring character or supporting character often and frequently appears from time to time during the series' run. Recurring characters often play major roles in more than one episode, sometimes being the main focus.
+A guest or minor character is one who acts only in a few episodes or scenes. Unlike regular characters, the guest ones do not need to be carefully incorporated into the storyline with all its ramifications: they create a piece of drama and then disappear without consequences to the narrative structure, unlike core characters, for which any significant conflict must be traced during a considerable time, which is often seen as an unjustified waste of resources. There may also be a continuing or recurring guest character. Sometimes a guest or minor character may gain unanticipated popularity and turn into a regular or main one; this is known as a breakout character.
+
+
+== Classical analysis ==
+
+In the earliest surviving work of dramatic theory, Poetics (c. 335 BCE), the Classical Greek philosopher Aristotle states that character (ethos) is one of six qualitative parts of Athenian tragedy and one of the three objects that it represents (1450a12). He understands character not to denote a fictional person, but the quality of the person acting in the story and reacting to its situations (1450a5). He defines character as "that which reveals decision, of whatever sort" (1450b8). It is possible, therefore, to have stories that do not contain "characters" in Aristotle's sense of the word, since character necessarily involves making the ethical dispositions of those performing the action clear. If, in speeches, the speaker "decides or avoids nothing at all", then those speeches "do not have character" (1450b9—11). Aristotle argues for the primacy of plot (mythos) over character (ethos). He writes:
+
+But the most important of these is the structure of the incidents. For (i) tragedy is a representation not of human beings but of action and life. Happiness and unhappiness lie in action, and the end [of life] is a sort of action, not a quality; people are of a certain sort according to their characters, but happy or the opposite according to their actions. So [the actors] do not act in order to represent the characters, but they include the characters for the sake of their actions" (1450a15–23).
+Aristotle suggests that works were distinguished in the first instance according to the nature of the person who created them: "the grander people represented fine actions, i.e. those of fine persons" by producing "hymns and praise-poems", while "ordinary people represented those of inferior ones" by "composing invectives" (1448b20–1449a5). On this basis, a distinction between the individuals represented in tragedy and in comedy arose: tragedy, along with epic poetry, is "a representation of serious people" (1449b9–10), while comedy is "a representation of people who are rather inferior" (1449a32—33).
+In the Tractatus coislinianus (which may or may not be by Aristotle), Ancient Greek comedy is defined as involving three types of characters: the buffoon (bômolochus), the ironist (eirōn), and the imposter or boaster (alazṓn). All three are central to Aristophanes' Old Comedy.
+By the time the Roman comic playwright Plautus wrote his plays two centuries later, the use of characters to define dramatic genres was well established. His Amphitryon begins with a prologue in which Mercury claims that since the play contains kings and gods, it cannot be a comedy and must be a tragicomedy.
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==

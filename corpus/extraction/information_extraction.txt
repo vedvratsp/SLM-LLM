@@ -1,0 +1,139 @@
+Information extraction (IE) is the task of automatically extracting structured information from unstructured and/or semi-structured machine-readable documents and other electronically represented sources. Typically, this involves processing human language texts by means of natural language processing (NLP). Recent activities in multimedia document processing like automatic annotation and content extraction out of images/audio/video/documents could be seen as information extraction.
+Recent advances in NLP techniques have allowed for significantly improved performance compared to previous years. An example is the extraction from newswire reports of corporate mergers, such as denoted by the formal relation: 
+
+  
+    
+      
+        MergerBetween
+        ⁡
+        (
+        
+          
+            c
+            o
+            m
+            p
+            a
+            n
+            y
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            c
+            o
+            m
+            p
+            a
+            n
+            y
+          
+          
+            2
+          
+        
+        ,
+        
+          d
+          a
+          t
+          e
+        
+        )
+      
+    
+    {\displaystyle \operatorname {MergerBetween} (\mathrm {company} _{1},\mathrm {company} _{2},\mathrm {date} )}
+  
+,
+from an online news sentence such as:
+
+"Yesterday, New York based Foo Inc. announced their acquisition of Bar Corp."
+A broad goal of IE is to allow computation to be done on the previously unstructured data.  A more specific goal is to allow automated reasoning about the logical form of the input data.  Structured data is semantically well-defined data from a chosen target domain, interpreted with respect to category and context.
+Information extraction is the part of a greater puzzle which deals with the problem of devising automatic methods for text management, beyond its transmission, storage and display. The discipline of information retrieval (IR) has developed automatic methods, typically of a statistical flavor, for indexing large document collections and classifying documents. Another complementary approach is that of natural language processing (NLP) which has solved the problem of modelling human language processing with considerable success when taking into account the magnitude of the task. In terms of both difficulty and emphasis,  IE deals with tasks in between both IR and NLP. In terms of input, IE assumes the existence of a set of documents in which each document follows a template, i.e. describes one or more entities or events  in a manner that is similar to those in other documents but differing in the details. An example, consider a group of newswire articles on Latin American terrorism with each article presumed to be based upon one or more terroristic acts. We also define for any given IE task a template, which is a(or a set of) case frame(s) to hold the information contained in a single document. For the terrorism example, a template would have slots corresponding to the perpetrator, victim, and weapon of the terroristic act, and the date on which the event happened. An IE system for this problem is required to "understand" an attack article only enough to find data corresponding to the slots in this template.
+
+
+== History ==
+Information extraction dates back to the late 1970s in the early days of NLP. An early commercial system from the mid-1980s was JASPER built for Reuters by the Carnegie Group Inc with the aim of providing real-time financial news to financial traders.
+Beginning in 1987, IE was spurred by a series of Message Understanding Conferences. MUC is a competition-based conference that focused on the following domains: 
+
+MUC-1 (1987), MUC-3 (1989): Naval operations messages.
+MUC-3 (1991), MUC-4 (1992): Terrorism in Latin American countries.
+MUC-5 (1993): Joint ventures and microelectronics domain.
+MUC-6 (1995): News articles on management changes.
+MUC-7 (1998): Satellite launch reports.
+Considerable support came from the U.S. Defense Advanced Research Projects Agency (DARPA), who wished to automate mundane tasks performed by government analysts, such as scanning newspapers for possible links to terrorism.
+
+
+== Present significance ==
+The present significance of IE pertains to the growing amount of information available in unstructured form. Tim Berners-Lee, inventor of the World Wide Web, refers to the existing Internet as the web of documents  and advocates that more of the content be made available as a web of data.  Until this transpires, the web largely consists of unstructured documents lacking semantic metadata.  Knowledge contained within these documents can be made more accessible for machine processing by means of transformation into relational form, or by marking-up with XML tags.  An intelligent agent monitoring a news data feed requires IE to transform unstructured data into something that can be reasoned with.  A typical application of IE is to scan a set of documents written in a natural language and populate a database with the information extracted.
+
+
+== Tasks and subtasks ==
+Applying information extraction to text is linked to the problem of text simplification in order to create a structured view of the information present in free text. The overall goal being to create a more easily machine-readable text to process the sentences. Typical IE tasks and subtasks include:
+
+Template filling: Extracting a fixed set of fields from a document, e.g. extract perpetrators, victims, time, etc. from a newspaper article about a terrorist attack.
+Event extraction: Given an input document, output zero or more event templates. For instance, a newspaper article might describe multiple terrorist attacks.
+Knowledge Base Population: Fill a database of facts given a set of documents. Typically the database is in the form of triplets, (entity 1, relation, entity 2), e.g. (Barack Obama, Spouse, Michelle Obama)
+Named entity recognition: recognition of known entity names (for people and organizations), place names, temporal expressions, and certain types of numerical expressions, by employing existing knowledge of the domain or information extracted from other sentences. Typically the recognition task involves assigning a unique identifier to the extracted entity. A simpler task is named entity detection, which aims at detecting entities without having any existing knowledge about the entity instances. For example, in processing the sentence "M. Smith likes fishing", named entity detection would denote detecting that the phrase "M. Smith" does refer to a person, but without necessarily having (or using) any knowledge about a certain M. Smith who is (or, "might be") the specific person whom that sentence is talking about.
+Coreference resolution: detection of coreference and anaphoric links between text entities. In IE tasks, this is typically restricted to finding links between previously extracted named entities. For example, "International Business Machines" and "IBM" refer to the same real-world entity. If we take the two sentences "M. Smith likes fishing. But he doesn't like biking", it would be beneficial to detect that "he" is referring to the previously detected person "M. Smith".
+Relationship extraction: identification of relations between entities, such as:
+PERSON works for ORGANIZATION (extracted from the sentence "Bill works for IBM.")
+PERSON located in LOCATION (extracted from the sentence "Bill is in France.")
+Semi-structured information extraction which may refer to any IE that tries to restore some kind of information structure that has been lost through publication, such as:
+Table extraction: finding and extracting tables from documents.
+Table information extraction : extracting information in structured manner from the tables. This task is more complex than table extraction, as table extraction is only the first step, while understanding the roles of the cells, rows, columns, linking the information inside the table and understanding the information presented in the table are additional tasks necessary for table information extraction.
+Comments extraction : extracting comments from the actual content of articles in order to restore the link between authors of each of the sentences
+Language and vocabulary analysis
+Terminology extraction: finding the relevant terms for a given corpus
+Audio extraction
+Template-based music extraction: finding relevant characteristic in an audio signal taken from a given repertoire; for instance  time indexes of occurrences of percussive sounds can be extracted in order to represent the essential rhythmic component of a music piece.
+Note that this list is not exhaustive and that the exact meaning of IE activities is not commonly accepted and that many approaches combine multiple sub-tasks of IE in order to achieve a wider goal. Machine learning, statistical analysis and/or natural language processing are often used in IE.
+With the advent of the 1990s and 2000s, information extraction from non-text documents such as images, audio and video was established as a research field. Extracting text and other semantic information from images and video was a research area covering automatic annotation, indexing and document analysis.
+In the 2010s, studies began to focus on information extraction from multiple media types and on fusion of information extracted from text, imagery, audio and video. Maybury's 2012 survey of multimedia information extraction included information fusion as part of the research on multimedia information extraction, which was defined as extracting information from multiple media. More recent research has investigated methods for extracting structured information from video by combining visual, textual and other multimodal information.
+
+
+== World Wide Web applications ==
+IE has been the focus of the MUC conferences. The proliferation of the Web, however, intensified the need for developing IE systems that help people to cope with the enormous amount of data that are available online. Systems that perform IE from online text should meet the requirements of low cost, flexibility in development and easy adaptation to new domains. MUC systems fail to meet those criteria. Moreover, linguistic analysis performed for unstructured text does not exploit the HTML/XML tags and the layout formats that are available in online texts. As a result, less linguistically intensive approaches have been developed for IE on the Web using wrappers, which are sets of highly accurate rules that extract a particular page's content. Manually developing wrappers has proved to be a time-consuming task, requiring a high level of expertise. Machine learning techniques, either supervised or unsupervised, have been used to induce such rules automatically.
+Wrappers typically handle highly structured collections of web pages, such as product catalogs and telephone directories. They fail, however, when the text type is less structured, which is also common on the Web. Recent effort on adaptive information extraction motivates the development of IE systems that can handle different types of text, from well-structured to almost free text -where common wrappers fail- including mixed types. Such systems can exploit shallow natural language knowledge and thus can be also applied to less structured texts.
+A recent development is Visual Information Extraction, that relies on rendering a webpage in a browser and creating rules based on the proximity of regions in the rendered web page. This helps in extracting entities from complex web pages that may exhibit a visual pattern, but lack a discernible pattern in the HTML source code.
+
+
+== Approaches ==
+
+The following standard approaches are now widely accepted:
+
+Hand-written regular expressions (or nested group of regular expressions)
+Using classifiers
+Generative: naïve Bayes classifier
+Discriminative: maximum entropy models such as Multinomial logistic regression
+Sequence models
+Recurrent neural network
+Hidden Markov model
+Conditional Markov model (CMM) / Maximum-entropy Markov model (MEMM)
+Conditional random fields (CRF) are commonly used in conjunction with IE for tasks as varied as extracting information from research papers to extracting navigation instructions.
+Numerous other approaches exist for IE including hybrid approaches that combine some of the standard approaches previously listed.
+
+
+== Free or open source software and services ==
+General Architecture for Text Engineering (GATE) is bundled with a free Information Extraction system
+Apache OpenNLP is a Java machine learning toolkit for natural language processing
+OpenCalais is an automated information extraction web service from Thomson Reuters (Free limited version)
+Machine Learning for Language Toolkit (Mallet) is a Java-based package for a variety of natural language processing tasks, including information extraction.
+DBpedia Spotlight is an open source tool in Java/Scala (and free web service) that can be used for named entity recognition and name resolution.
+Natural Language Toolkit  is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for the Python programming language
+See also CRF implementations
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Alias-I "competition" page A listing of academic toolkits and industrial toolkits for natural language information extraction.
+Gabor Melli's page on IE Detailed description of the information extraction task.

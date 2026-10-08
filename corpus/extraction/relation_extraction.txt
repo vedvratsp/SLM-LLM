@@ -1,0 +1,33 @@
+A relationship extraction task requires the detection and classification of semantic relationship mentions within a set of artifacts, typically from text or XML documents. The task is very similar to that of information extraction (IE), but IE additionally requires the removal of repeated relations (disambiguation) and generally refers to the extraction of many different relationships.
+
+
+== Concept and applications ==
+The concept of relationship extraction was first introduced during the 7th Message Understanding Conference in 1998. Relationship extraction involves the identification of relations between entities and it usually focuses on the extraction of binary relations. Application domains where relationship extraction is useful include gene-disease relationships, protein-protein interaction etc.
+Current relationship extraction studies use machine learning technologies, which approach relationship extraction as a classification problem. Never-Ending Language Learning is a semantic machine learning system developed by a research team at Carnegie Mellon University that extracts relationships from the open web.
+
+
+== Approaches ==
+There are several methods used to extract relationships and these include text-based relationship extraction. These methods rely on the use of pretrained relationship structure information or it could entail the learning of the structure in order to reveal relationships. Another approach to this problem involves the use of domain ontologies. There is also the approach that involves visual detection of meaningful relationships in parametric values of objects listed on a data table that shift positions as the table is permuted automatically as controlled by the software user. The poor coverage, rarity and development cost related to structured resources such as semantic lexicons (e.g. WordNet, UMLS) and domain ontologies (e.g. the Gene Ontology) has given rise to new approaches based on broad, dynamic background knowledge on the Web. For instance, the ARCHILES technique uses only Wikipedia and search engine page count for acquiring coarse-grained relations to construct lightweight ontologies.
+The relationships can be represented using a variety of formalisms/languages. One such representation language for data on the Web is RDF.
+More recently, end-to-end systems which jointly learn to extract entity mentions and their semantic relations have been proposed with strong potential to obtain high performance.
+Most of the reported systems have demonstrated their approach on English datasets.
+However, data and systems have been described for other languages, e.g., Russian
+and Vietnamese.
+
+
+== Datasets ==
+Researchers have constructed multiple datasets for benchmarking relationship extraction methods.
+One such dataset was the document-level relationship extraction dataset called DocRED released in 2019.
+It uses relations from Wikidata and text from the English Wikipedia.
+The dataset has been used by other researchers and a prediction competition has been setup at CodaLab.
+
+
+== See also ==
+Text analytics
+Semantic analytics
+Semantic role labeling
+Information extraction
+Business Intelligence
+
+
+== References ==

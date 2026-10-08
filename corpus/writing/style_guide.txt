@@ -1,0 +1,50 @@
+A style guide is a set of standards for the writing, formatting, and design of documents. A book-length style guide is often called a style manual or a manual of style. A short style guide, typically ranging from several to several dozen pages, is often called a style sheet. The standards documented in a style guide are applicable for either general use, or prescribed use in an individual publication, particular organization, or specific field.
+A style guide establishes standard style requirements to improve communication by ensuring consistency within and across documents. They may require certain best practices in writing style, usage, language composition, visual composition, orthography, and typography by setting standards of usage in areas such as punctuation, capitalization, citing sources, formatting of numbers and dates, table appearance and other areas. For academic and technical documents, a guide may also enforce best practices in ethics (such as authorship, research ethics, and disclosure) and compliance (technical and regulatory). For translations, a style guide may even be used to enforce consistent grammar, tone, and localization decisions such as units of measure.
+Style guides may be categorized into three types: comprehensive style for general use; discipline style for specialized use, which is often specific to academic disciplines, medicine, journalism, law, government, business, and other fields; and house or corporate style, created and used by a particular publisher or organization.
+
+
+== Varieties ==
+
+Style guides vary widely in scope and size. Writers working in large industries or professional sectors may reference a specific style guide, written for usage in specialized documents within their fields. For the most part, these guides are relevant and useful for peer-to-peer specialist documentation, or to help writers working in specific industries or sectors to communicate highly technical information in scholarly articles or industry white papers.
+Professional style guides from different countries can be referenced for authoritative advice on their respective language(s), such as Hart's Rules from Oxford University Press and The Chicago Manual of Style from the University of Chicago Press. Australia has a style guide, available online, created by its government.
+
+
+=== Sizes ===
+The guides' variety in scope and length is enabled by the cascading of one style over another, analogous to how style sheets cascade in web development and desktop publishing with CSS styles.
+In many cases, a project such as a book, journal, or monograph series typically has a short style sheet that cascades over the larger style guide of an organization such as a publishing company, whose specific content is usually called house style. Most house styles, in turn, cascade over an industry-wide or profession-wide style manual that is even more comprehensive. Examples of industry style guides include:
+
+The Associated Press Stylebook (AP Stylebook) and The Canadian Press Stylebook for journalism
+Hart's Rules and The Chicago Manual of Style for general academic writing and publishing
+Modern Humanities Research Association (MHRA) style and American Sociological Association (ASA) style for the humanities and social sciences
+Oxford Standard for Citation of Legal Authorities (OSCOLA)  and Bluebook style for law
+US Government Publishing Office (USGPO) style and Australian Government Publishing Service (AGPS) style for government publications
+Finally, these reference works cascade over the orthographic norms of the language in use (for example, English orthography for English-language publications). This, of course, may be subject to national variety, such as British, American, Canadian, and Australian English.
+
+
+=== Topics ===
+Some style guides focus on specific topic areas such as graphic design, including typography. Website style guides cover a publication's visual and technical aspects, as well as text.
+Guides in specific scientific and technical fields may cover nomenclature to specify names or classification labels that are clear, standardized, and ontologically sound (e.g., taxonomy, chemical nomenclature, and gene nomenclature).
+Style guides that cover usage may suggest descriptive terms for people which avoid racism, sexism, homophobia, etc. Style guides increasingly incorporate accessibility conventions for audience members with visual, mobility, or other disabilities.
+
+
+=== Web style guides ===
+Since the beginning of the digital era, websites have allowed for an expansion of style guide conventions to account for digital behavior such as screen reading. Screen reading requires web style guides to focus more intensively on a user experience that is subject to multichannel surfing. Though web style guides can vary widely, they tend to prioritize similar values about brevity, terminology, syntax, tone, structure, typography, graphics, and errors.
+
+
+== Updates ==
+Most style guides are revised periodically to accommodate changes in conventions and usage. The update frequency and revision control are determined by the subject. For style manuals in reference-work format, new editions typically appear every 1 to 20 years. For example, the AP Stylebook is revised every other year (since 2020). The Chicago Manual of Style is in its 18th edition, while the American Psychological Association (APA) and ASA styles are each in their 7th edition as of 2025. Many house styles and individual project styles change more frequently, especially for new projects.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+
+But the stylebook says ... – Blog post about stylebook abuse, by Bill Walsh of The Washington Post
+Handouts about writing style guides, from a conference of the American Copy Editors Society in 2007
+William G. Connolly. "How to Write a Stylebook in 10 Easy Steps" (PDF). Archived from the original (PDF) on 21 August 2010.
+Doug Kouma. "Creating an In-House Stylebook" (PDF). Meredith Special Interest Media. Archived from the original (PDF) on 21 August 2010.
+Language Log » Searching 43 stylebooks

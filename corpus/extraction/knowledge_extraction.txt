@@ -1,0 +1,175 @@
+Knowledge extraction is the creation of knowledge from structured (relational databases, XML) and unstructured (text, documents, images) sources. The resulting knowledge needs to be in a machine-readable and machine-interpretable format and must represent knowledge in a manner that facilitates inferencing. Although it is methodically similar to information extraction (IE) in natural language processing (NLP) and extract, transform, load (ETL), the main criterion is that the extraction result goes beyond the creation of structured information or the transformation into a relational schema. It requires either the reuse of existing formal knowledge (reusing identifiers or ontologies) or the generation of a schema based on the source data.
+The RDB2RDF W3C group  was standardizing a language for extraction of resource description frameworks (RDF) from relational databases. Another popular example for knowledge extraction is the transformation of Wikipedia into structured data and also the mapping to existing knowledge (see DBpedia and Freebase).
+
+
+== Overview ==
+After the standardization of knowledge representation languages such as RDF and OWL, much research has been conducted in the area, especially regarding transforming relational databases into RDF, identity resolution, knowledge discovery and ontology learning. The general process uses traditional methods from information extraction and extract, transform, and load (ETL), which transform the data from the sources into structured formats. So understanding how the interact and learn from each other.
+The following criteria can be used to categorize approaches in this topic (some of them only account for extraction from relational databases):
+
+
+== Examples ==
+
+
+=== Entity linking ===
+DBpedia Spotlight, OpenCalais, Dandelion dataTXT, the Zemanta API, Extractiv and PoolParty Extractor analyze free text via named-entity recognition and then disambiguates candidates via name resolution and links the found entities to the DBpedia knowledge repository (Dandelion dataTXT demo Archived 2013-11-02 at the Wayback Machine or DBpedia Spotlight web demo or PoolParty Extractor Demo).
+President Obama called Wednesday on Congress to extend a tax break for students included in last year's economic stimulus package, arguing that the policy provides more generous assistance. 
+As President Obama is linked to a DBpedia LinkedData resource, further information can be retrieved automatically and a Semantic Reasoner can for example infer that the mentioned entity is of the type Person (using FOAF (software)) and of type Presidents of the United States (using YAGO). Counter examples: Methods that only recognize entities or link to Wikipedia articles and other targets that do not provide further retrieval of structured data and formal knowledge.
+
+
+=== Relational databases to RDF ===
+Triplify, D2R Server, Ultrawrap Archived 2016-11-27 at the Wayback Machine, and Virtuoso RDF Views are tools that transform relational databases to RDF. During this process they allow reusing existing vocabularies and ontologies during the conversion process. When transforming a typical relational table named users, one column (e.g.name) or an aggregation of columns (e.g.first_name and last_name) has to provide the URI of the created entity. Normally the primary key is used. Every other column can be extracted as a relation with this entity. Then properties with formally defined semantics are used (and reused) to interpret the information. For example, a column in a user table called marriedTo can be defined as symmetrical relation and a column homepage can be converted to a property from the FOAF Vocabulary called foaf:homepage, thus qualifying it as an inverse functional property. Then each entry of the user table can be made an instance of the class foaf:Person (Ontology Population). Additionally domain knowledge (in form of an ontology) could be created from the status_id, either by manually created rules (if status_id is 2, the entry belongs to class Teacher ) or by (semi)-automated methods (ontology learning). Here is an example transformation:
+
+
+== Extraction from structured sources to RDF ==
+
+
+=== 1:1 Mapping from RDB Tables/Views to RDF Entities/Attributes/Values ===
+When building a RDB representation of a problem domain, the starting point is frequently an entity-relationship diagram (ERD). Typically, each entity is represented as a database table, each attribute of the entity becomes a column in that table, and relationships between entities are indicated by foreign keys. Each table typically defines a particular class of entity, each column one of its attributes. Each row in the table describes an entity
+instance, uniquely identified by a primary key. The table rows collectively describe an entity set. In an equivalent RDF representation of the same entity set:
+
+Each column in the table is an attribute (i.e., predicate)
+Each column value is an attribute value (i.e., object)
+Each row key represents an entity ID (i.e., subject)
+Each row represents an entity instance
+Each row (entity instance) is represented in RDF by a collection of triples with a common subject (entity ID).
+So, to render an equivalent view based on RDF semantics, the basic mapping algorithm would be as follows:
+
+create an RDFS class for each table
+convert all primary keys and foreign keys into IRIs
+assign a predicate IRI to each column
+assign an rdf:type predicate for each row, linking it to an RDFS class IRI corresponding to the table
+for each column that is neither part of a primary or foreign key, construct a triple containing the primary key IRI as the subject, the column IRI as the predicate and the column's value as the object.
+Early mentioning of this basic or direct mapping can be found in Tim Berners-Lee's comparison of the ER model to the RDF model.
+
+
+=== Complex mappings of relational databases to RDF ===
+The 1:1 mapping mentioned above exposes the legacy data as RDF in a straightforward way, additional refinements can be employed to improve the usefulness of RDF output respective the given Use Cases. Normally, information is lost during the transformation of an entity-relationship diagram (ERD) to relational tables (Details can be found in object-relational impedance mismatch) and has to be reverse engineered. From a conceptual view, approaches for extraction can come from two directions. The first direction tries to extract or learn an OWL schema from the given database schema. Early approaches used a fixed amount of manually created mapping rules to refine the 1:1 mapping. More elaborate methods are employing heuristics or learning algorithms to induce schematic information (methods overlap with ontology learning). While some approaches try to extract the information from the structure inherent in the SQL schema (analysing e.g. foreign keys), others analyse the content and the values in the tables to create conceptual hierarchies (e.g. a columns with few values are candidates for becoming categories). The second direction tries to map the schema and its contents to a pre-existing domain ontology (see also: ontology alignment). Often, however, a suitable domain ontology does not exist and has to be created first.
+
+
+=== XML ===
+As XML is structured as a tree, any data can be easily represented in RDF, which is structured as a graph. XML2RDF is one example of an approach that uses RDF blank nodes and transforms XML elements and attributes to RDF properties. The topic however is more complex as in the case of relational databases. In a relational table the primary key is an ideal candidate for becoming the subject of the extracted triples. An XML element, however, can be transformed - depending on the context- as a subject, a predicate or object of a triple. XSLT can be used a standard transformation language to manually convert XML to RDF.
+
+
+=== Survey of methods / tools ===
+
+
+== Extraction from natural language sources ==
+The largest portion of information contained in business documents (about 80%) is encoded in natural language and therefore unstructured. Because unstructured data is rather a challenge for knowledge extraction, more sophisticated methods are required, which generally tend to supply worse results compared to structured data. The potential for a massive acquisition of extracted knowledge, however, should compensate the increased complexity and decreased quality of extraction. In the following, natural language sources are understood as sources of information, where the data is given in an unstructured fashion as plain text.  If the given text is additionally embedded in a markup document (e. g. HTML document), the mentioned systems normally remove the markup elements automatically.
+
+
+=== Linguistic annotation / natural language processing (NLP) ===
+
+As a preprocessing step to knowledge extraction, it can be necessary to perform linguistic annotation by one or multiple NLP tools. Individual modules in an NLP workflow normally build on tool-specific formats for input and output, but in the context of knowledge extraction, structured formats for representing linguistic annotations have been applied.
+Typical NLP tasks relevant to knowledge extraction include:
+
+part-of-speech (POS) tagging
+lemmatization (LEMMA) or stemming (STEM)
+word sense disambiguation (WSD, related to semantic annotation below)
+named entity recognition (NER, also see IE below)
+syntactic parsing, often adopting syntactic dependencies (DEP)
+shallow syntactic parsing (CHUNK): if performance is an issue, chunking yields a fast extraction of nominal and other phrases
+anaphor resolution (see coreference resolution in IE below, but seen here as the task to create links between textual mentions rather than between the mention of an entity and an abstract representation of the entity)
+semantic role labelling (SRL, related to relation extraction; not to be confused with semantic annotation as described below)
+discourse parsing (relations between different sentences, rarely used in real-world applications)
+In NLP, such data is typically represented in TSV formats (CSV formats with TAB as separators), often referred to as CoNLL formats. For knowledge extraction workflows, RDF views on such data have been created in accordance with the following community standards:
+
+NLP Interchange Format (NIF, for many frequent types of annotation)
+Web Annotation (WA, often used for entity linking)
+CoNLL-RDF (for annotations originally represented in TSV formats)
+Other, platform-specific formats include
+
+LAPPS Interchange Format (LIF, used in the LAPPS Grid)
+NLP Annotation Format (NAF, used in the NewsReader workflow management system)
+
+
+=== Traditional information extraction (IE) ===
+Traditional information extraction is a technology of natural language processing, which extracts information from typically natural language texts and structures these in a suitable manner. The kinds of information to be identified must be specified in a model before beginning the process, which is why the whole process of traditional Information Extraction is domain dependent. The IE is split in the following five subtasks.
+
+Named entity recognition (NER)
+Coreference resolution (CO)
+Template element construction (TE)
+Template relation construction (TR)
+Template scenario production (ST)
+The task of named entity recognition is to recognize and to categorize all named entities contained in a text (assignment of a named entity to a predefined category). This works by application of grammar based methods or statistical models.
+Coreference resolution identifies equivalent entities, which were recognized by NER, within a text. There are two relevant kinds of equivalence relationship. The first one relates to the relationship between two different represented entities (e.g. IBM Europe and IBM) and the second one to the relationship between an entity and their anaphoric references (e.g. it and IBM). Both kinds can be recognized by coreference resolution.
+During template element construction the IE system identifies descriptive properties of entities, recognized by NER and CO. These properties correspond to ordinary qualities like red or big.
+Template relation construction identifies relations, which exist between the template elements. These relations can be of several kinds, such as works-for or located-in, with the restriction, that both domain and range correspond to entities.
+In the template scenario production events, which are described in the text, will be identified and structured with respect to the entities, recognized by NER and CO and relations, identified by TR.
+
+
+=== Ontology-based information extraction (OBIE) ===
+Ontology-based information extraction  is a subfield of information extraction, with which at least one ontology is used to guide the process of information extraction from natural language text. The OBIE system uses methods of traditional information extraction to identify concepts, instances and relations of the used ontologies in the text, which will be structured to an ontology after the process. Thus, the input ontologies constitute the model of information to be extracted.
+
+
+=== Ontology learning (OL) ===
+
+Ontology learning is the automatic or semi-automatic creation of ontologies, including extracting the corresponding domain's terms from natural language text. As building ontologies manually is extremely labor-intensive and time-consuming, there is great motivation to automate the process.
+
+
+=== Semantic annotation (SA) ===
+During semantic annotation, natural language text is augmented with metadata (often represented in RDFa), which should make the semantics of contained terms machine-understandable. At this process, which is generally semi-automatic, knowledge is extracted in the sense, that a link between lexical terms and for example concepts from ontologies is established. Thus, knowledge is gained, which meaning of a term in the processed context was intended and therefore the meaning of the text is grounded in machine-readable data with the ability to draw inferences. Semantic annotation is typically split into the following two subtasks.
+
+Terminology extraction
+Entity linking
+At the terminology extraction level, lexical terms from the text are extracted. For this purpose a tokenizer determines at first the word boundaries and solves abbreviations. Afterwards terms from the text, which correspond to a concept, are extracted with the help of a domain-specific lexicon to link these at entity linking.
+In entity linking  a link between the extracted lexical terms from the source text and the concepts from an ontology or knowledge base such as DBpedia  is established. For this, candidate-concepts are detected appropriately to the several meanings of a term with the help of a lexicon. Finally, the context of the terms is analyzed to determine the most appropriate disambiguation and to assign the term to the correct concept.
+Note that "semantic annotation" in the context of knowledge extraction is not to be confused with semantic parsing as understood in natural language processing (also referred to as "semantic annotation"): Semantic parsing aims a complete, machine-readable representation of natural language, whereas semantic annotation in the sense of knowledge extraction tackles only a very elementary aspect of that.
+
+
+=== Tools ===
+The following criteria can be used to categorize tools, which extract knowledge from natural language text.
+
+The following table characterizes some tools for Knowledge Extraction from natural language sources.
+
+
+== Knowledge discovery ==
+Knowledge discovery describes the process of automatically searching large volumes of data for patterns that can be considered knowledge about the data.  It is often described as deriving knowledge from the input data. Knowledge discovery developed out of the data mining domain, and is closely related to it both in terms of methodology and terminology.
+The most well-known branch of data mining is knowledge discovery, also known as knowledge discovery in databases (KDD). Just as many other forms of knowledge discovery it creates abstractions of the input data. The knowledge obtained through the process may become additional data that can be used for further usage and discovery. Often the outcomes from knowledge discovery are not actionable, techniques like domain driven data mining, aims to discover and deliver actionable knowledge and insights.
+Another promising application of knowledge discovery is in the area of software modernization, weakness discovery and compliance which involves understanding existing software artifacts. This process is related to a concept of reverse engineering. Usually the knowledge obtained from existing software is presented in the form of models to which specific queries can be made when necessary. An entity relationship is a frequent format of representing knowledge obtained from existing software. Object Management Group (OMG) developed the specification Knowledge Discovery Metamodel (KDM) which defines an ontology for the software assets and their relationships for the purpose of performing knowledge discovery in existing code. Knowledge discovery from existing software systems, also known as software mining, is closely related to data mining, since existing software artifacts contain enormous value for risk management and business value, key for the evaluation and evolution of software systems. Instead of mining individual data sets, software mining focuses on metadata, such as process flows (e.g. data flows, control flows, & call maps), architecture, database schemas, and business rules/terms/process.
+
+
+=== Input data ===
+Databases
+Relational data
+Database
+Document warehouse
+Data warehouse
+Software
+Source code
+Configuration files
+Build scripts
+Text
+Concept mining
+Graphs
+Molecule mining
+Sequences
+Data stream mining
+Learning from time-varying data streams under concept drift
+Web
+
+
+=== Output formats ===
+Data model
+Metadata
+Metamodels
+Ontology
+Knowledge representation
+Knowledge tags
+Business rule
+Knowledge Discovery Metamodel (KDM)
+Business Process Modeling Notation (BPMN)
+Intermediate representation
+Resource Description Framework (RDF)
+Software metrics
+
+
+== See also ==
+Cluster analysis
+Data archaeology
+
+
+== Further reading ==
+Chicco, D; Masseroli, M (2016). "Ontology-based prediction and prioritization of gene functional annotations". IEEE/ACM Transactions on Computational Biology and Bioinformatics. 13 (2): 248–260. doi:10.1109/TCBB.2015.2459694. PMID 27045825. S2CID 2795344.
+
+
+== References ==

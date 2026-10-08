@@ -1,0 +1,109 @@
+A cognitive bias is a systematic pattern of deviation from the norm or rationality in judgment. Individuals create their own "subjective reality" from their perception of the input. An individual's construction of reality, not the objective input, may dictate their behavior in the world. Thus, cognitive biases may sometimes lead to perceptual distortion, inaccurate judgment, illogical interpretation, and irrationality.
+While cognitive biases may initially appear to be negative, some are adaptive. They may lead to more effective actions in a given context. Furthermore, allowing cognitive biases enables faster decisions which can be desirable when timeliness is more valuable than accuracy, as illustrated in heuristics. Other cognitive biases are a "by-product" of human processing limitations, resulting from a lack of appropriate mental mechanisms (bounded rationality), the impact of an individual's constitution and biological state (embodied cognition), or simply from a limited capacity for information processing. Cognitive biases can make individuals more inclined to endorsing pseudoscientific beliefs by requiring less evidence for claims that confirm their preconceptions. This can potentially distort their perceptions and lead to inaccurate judgments.
+A continually evolving list of cognitive biases has been identified over the last six decades of research on human judgment and decision-making in cognitive science, social psychology, and behavioral economics. The study of cognitive biases has practical implications for areas including clinical judgment, entrepreneurship, finance, and management.
+
+
+== Overview ==
+When making judgments under uncertainty, people rely on mental shortcuts or heuristics, which provide swift estimates about the possibility of uncertain occurrences. For example, 
+the representativeness heuristic is defined as the tendency to judge the frequency or likelihood of an occurrence by the extent of which the event resembles the typical case. Similarly the availability heuristic is that individuals estimate the likelihood of events by how easy they are to recall, and the anchoring heuristic prefers the initial reference points that are recalled. While these heuristics are efficient and simple for the brain to compute, they sometimes introduce predictable and systematic cognitive errors, or biases.
+The "Linda Problem" illustrates the representativeness heuristic and corresponding bias. Participants were given a description of "Linda" that suggests Linda might well be a feminist (e.g., she is said to be concerned about discrimination and social justice issues). They were then asked whether they thought Linda was more likely to be (a) a "bank teller" or (b) a "bank teller and active in the feminist movement". A majority chose answer (b). Independent of the information given about Linda, though, the more restrictive answer (b) is under any circumstance statistically less likely than answer (a). This is an example of the conjunction fallacy: respondents chose (b) because it seemed more "representative" or typical of persons who might fit the description of Linda. If they assumed that choosing (a) would entail Linda not being active in the feminist movement, that would be a pragmatic implicature. The representativeness heuristic may lead to errors such as activating stereotypes and inaccurate judgments of others.
+Gerd Gigerenzer argues that heuristics should not lead us to conceive of human thinking as riddled with irrational cognitive biases. They should rather conceive rationality as an adaptive tool, not identical to the rules of formal logic or the probability calculus.  Gigerenzer believes that cognitive biases are not biases, but rules of thumb, or as he would put it "gut feelings" that can actually help us make accurate decisions in our lives. There is not clear evidence that these behaviors are genuinely, severely biased once the actual problems people face are understood. Advances in economics and cognitive neuroscience now suggest that many behaviors previously labeled as biases might instead represent optimal decision-making strategies.
+
+
+=== Definitions ===
+
+
+== History ==
+The notion of cognitive biases was introduced by Amos Tversky and Daniel Kahneman in 1972 and grew out of their experience of people's innumeracy, or inability to reason intuitively with the greater orders of magnitude. Tversky, Kahneman, and colleagues demonstrated several replicable ways in which human judgments and decisions differ from rational choice theory. Their 1974 paper, Judgment under Uncertainty: Heuristics and Biases, outlined how people rely on mental shortcuts when making judgments under uncertainty. Experiments such as the "Linda problem" grew into heuristics and biases research programs, which spread beyond academic psychology into other disciplines including medicine and political science.
+The list of cognitive biases has long been a topic of critique. In psychology a "rationality war" unfolded between Gerd Gigerenzer and the Kahneman and Tversky school, which pivoted on whether biases are primarily defects of human cognition or the result of behavioural patterns that are actually adaptive or "ecologically rational". Gerd Gigerenzer has historically been one of the main opponents to cognitive biases and heuristics. This debate has recently reignited, with critiques arguing there has been an overemphasis on biases in human cognition.
+A kind of middle ground was put forward by Martie Haselton and David Buss, which acknowledges both the defect and adaptivity of cognitive biases. In this model, evolution favors a bias toward the least costly error. Koster, Fox & MacLeod (2009) introduced the concept of cognitive bias modification, which focuses on reducing maladaptive cognitive patterns through computer-based attention training and behavioral tasks.
+
+
+== Types ==
+Biases can be distinguished on a number of dimensions. 
+Examples of cognitive biases include:
+
+Biases specific to groups (such as the risky shift) versus biases at the individual level.
+Biases that affect decision-making, where the desirability of options has to be considered (e.g., sunk costs fallacy).
+Biases, such as illusory correlation, that affect judgment of how likely something is or whether one thing is the cause of another.
+Biases that affect memory, such as consistency bias (remembering one's past attitudes and behavior as more similar to one's present attitudes).
+Biases that reflect a subject's motivation, for example, the desire for a positive self-image leading to egocentric bias and the avoidance of unpleasant cognitive dissonance.
+Other biases are due to the particular way the brain perceives, forms memories and makes judgments. This distinction is sometimes described as "hot cognition" versus "cold cognition", as motivated reasoning can involve a state of arousal. Among the "cold" biases,
+
+some are due to ignoring relevant information (e.g., neglect of probability),
+some involve a decision or judgment being affected by irrelevant information (for example the framing effect where the same problem receives different responses depending on how it is described; or the distinction bias where choices presented together have different outcomes than those presented separately), and
+others give excessive weight to an unimportant but salient feature of the problem (e.g., anchoring).
+As some biases reflect motivation specifically the motivation to have positive attitudes to oneself. It accounts for the fact that many biases are self-motivated or self-directed (e.g., illusion of asymmetric insight, self-serving bias). There are also biases in how subjects evaluate in-groups or out-groups; evaluating in-groups as more diverse and "better" in many respects, even when those groups are arbitrarily defined (ingroup bias, outgroup homogeneity bias). Some cognitive biases belong to the subgroup of attentional biases, which refers to paying increased attention to certain stimuli. It has been shown, for example, that people addicted to alcohol and other drugs pay more attention to drug-related stimuli. Common psychological tests to measure those biases are the Stroop task and the dot probe task. Individuals' susceptibility to some types of cognitive biases can be measured by the Cognitive Reflection Test (CRT) developed by Shane Frederick (2005).
+
+
+=== List of biases ===
+
+The following is a list of the more commonly studied cognitive biases:
+
+
+== Practical significance ==
+
+Many social institutions rely on individuals to make rational judgments. Across management, finance, medicine, and law, the most recurrent bias is overconfidence, though anchoring and framing also play substantial roles. While research in finance often uses large-scale data, studies in medicine and law frequently rely on vignette-based designs. Berthet highlights the lack of ecological validity in many studies and the need for deeper exploration of individual differences in susceptibility to bias. The securities regulation regime largely assumes that all investors act as perfectly rational persons. In truth, actual investors face cognitive limitations from biases, heuristics, and framing effects. In some academic disciplines, the study of bias is very popular. For instance, bias is a wide spread and well studied phenomenon because most decisions that concern the minds and hearts of entrepreneurs are computationally intractable.
+In law enforcement and legal decision-making, confirmation bias and related errors frequently influence investigative decisions and evidence evaluation. Structured intervention strategies, such as accountability measures and checklists, show some promise in reducing bias during case evaluations. A fair jury trial, for example, requires that the jury ignore irrelevant features of the case, weigh the relevant features appropriately, consider different possibilities open-mindedly and resist fallacies such as appeal to emotion. The various biases demonstrated in these psychological experiments suggest that people will frequently fail to do all these things. However, they fail to do so in systematic, directional ways that are predictable. Cognitive biases can create other issues that arise in everyday life. Study participants who ate more unhealthy snack food tended to have less inhibitory control and more reliance on approach bias. Cognitive biases could be linked to various eating disorders and how people view their bodies and their body image.
+Cognitive biases can be used in destructive ways. Some believe that there are people in authority who use cognitive biases and heuristics in order to manipulate others so that they can reach their end goals. Some medications and other health care treatments rely on cognitive biases in order to persuade others who are susceptible to cognitive biases to use their products. Many see this as taking advantage of one's natural struggle of judgement and decision-making. Some also believe that it is the government's responsibility to regulate these misleading ads. Cognitive biases also seem to play a role in property sale price and value. Participants in the experiment were shown a residential property. Afterwards, they were shown another property that was completely unrelated to the first property. They were asked to say what they believed the value and the sale price of the second property would be. They found that showing the participants an unrelated property did have an effect on how they valued the second property. Cognitive biases can be used in non-destructive ways. In team science and collective problem-solving, the superiority bias can be beneficial. It leads to a diversity of solutions within a group, especially in complex problems, by preventing premature consensus on suboptimal solutions. This example demonstrates how a cognitive bias, typically seen as a hindrance, can enhance collective decision-making by encouraging a wider exploration of possibilities.
+Cognitive biases are interlinked with collective illusions, a phenomenon where a group of people mistakenly believe that their views and preferences are not shared by the majority, when in reality, they are. These illusions often arise from various cognitive biases that misrepresent our perception of social norms and influence how we assess the beliefs of others. The mirror image of this, where one falsely believes one's own views to be held by the majority, is the false consensus effect. Cognitive biases also influence the spread of misinformation, particularly in digital environments. Lazer, Baum, and Grinberg (2018) analyzed over 16,000 false news stories shared by millions of Twitter users during the 2016 U.S. election and found that false information spread significantly faster than accurate news. This occurs partly because misinformation aligns with existing beliefs and triggers emotional reactions, both of which are linked to confirmation and availability biases. These findings illustrate how cognitive biases can distort public understanding and contribute to the rapid dissemination of false narratives.
+
+
+== Reducing ==
+
+The content and direction of cognitive biases are not "arbitrary". Debiasing is the reduction of biases in judgment and decision-making through incentives, nudges, and training. Cognitive bias mitigation and cognitive bias modification are forms of debiasing specifically applicable to cognitive biases and their effects. One debiasing technique aims to decrease biases by encouraging individuals to use controlled processing compared to automatic processing. Because they cause systematic errors, cognitive biases cannot be compensated for using a wisdom of the crowd technique of averaging answers from several people. Reference class forecasting is a method for systematically debiasing estimates and decisions, based on what Daniel Kahneman has dubbed the outside view.
+Cognitive bias modification (CBM) refers to the process of modifying cognitive biases in healthy people and also refers to a growing area of psychological (non-pharmaceutical) therapies for anxiety, depression and addiction called cognitive bias modification therapy (CBMT). CBMT is sub-group of therapies within a growing area of psychological therapies based on modifying cognitive processes with or without accompanying medication and talk therapy, sometimes referred to as applied cognitive processing therapies (ACPT). Although cognitive bias modification can refer to modifying cognitive processes in healthy individuals, CBMT is a growing area of evidence-based psychological therapy, in which cognitive processes are modified to relieve suffering from serious depression, anxiety, and addiction. CBMT techniques are technology-assisted therapies that are delivered via a computer with or without clinician support. CBM combines evidence and theory from the cognitive model of anxiety, cognitive neuroscience, and attentional models. Even one-shot training interventions, such as educational videos and debiasing games that taught mitigating strategies, significantly reduced the commission of several cognitive biases.
+Cognitive bias modification has also been used to help those with obsessive-compulsive beliefs and obsessive-compulsive disorder. This therapy has shown that it decreases the obsessive-compulsive beliefs and behaviors. In relation to reducing the fundamental attribution error, monetary incentives and informing participants they will be held accountable for their attributions have been linked to the increase of accurate attributions.
+
+
+== Common theoretical causes of some cognitive biases ==
+Bias arises from various processes that are sometimes difficult to distinguish. These include:
+
+Bounded rationality — limits on optimization and rationality
+Prospect theory
+Evolutionary psychology  — Remnants from evolutionary adaptive mental functions.
+Mental accounting
+Adaptive bias — basing decisions on limited information and biasing them based on the costs of being wrong
+Attribute substitution — making a complex, difficult judgment by unconsciously replacing it with an easier judgment
+Attribution theory
+Salience
+Naïve realism
+Cognitive dissonance, and related:
+Impression management
+Self-perception theory
+Information-processing shortcuts (heuristics), including:
+Availability heuristic — estimating what is more likely by what is more available in memory, which is biased toward vivid, unusual, or emotionally charged examples
+Representativeness heuristic — judging probabilities based on resemblance
+Affect heuristic — basing a decision on an emotional reaction rather than a calculation of risks and benefits
+Emotional and moral motivations deriving, for example, from:
+The two-factor theory of emotion
+The somatic markers hypothesis
+Introspection illusion
+Misinterpretations or misuse of statistics; innumeracy.
+Social influence
+The brain's limited information processing capacity
+Noisy information processing (distortions during storage in and retrieval from memory). For example, a 2012 Psychological Bulletin article suggests that at least eight seemingly unrelated biases can be produced by the same information-theoretic generative mechanism. The article shows that noisy deviations in the memory-based information processes that convert objective evidence (observations) into subjective estimates (decisions) can produce regressive conservatism, the belief revision (Bayesian conservatism), illusory correlations, illusory superiority (better-than-average effect) and worse-than-average effect, subadditivity effect, exaggerated expectation, overconfidence, and the hard–easy effect.
+
+
+== Individual differences in cognitive biases ==
+
+People do appear to have stable individual differences in their susceptibility to decision biases such as overconfidence, temporal discounting, and bias blind spot. That said, these stable levels of bias within individuals are possible to change. Participants in experiments who watched training videos and played debiasing games showed medium to large reductions both immediately and up to three months later in the extent to which they exhibited susceptibility to six cognitive biases: anchoring, bias blind spot, confirmation bias, fundamental attribution error, projection bias, and representativeness.
+Individual differences in cognitive bias have also been linked to varying levels of cognitive abilities and functions. The Cognitive Reflection Test (CRT) has been used to help understand the connection between cognitive biases and cognitive ability. There have been inconclusive results when using the Cognitive Reflection Test to understand ability. However, there does seem to be a correlation; those who gain a higher score on the Cognitive Reflection Test, have higher cognitive ability and rational-thinking skills. This in turn helps predict the performance on cognitive bias and heuristic tests. Those with higher CRT scores tend to be able to answer more correctly on different heuristic and cognitive bias tests and tasks.
+Age is another individual difference that has an effect on one's ability to be susceptible to cognitive bias. Older individuals tend to be more susceptible to cognitive biases and have less cognitive flexibility. However, older individuals were able to decrease their susceptibility to cognitive biases throughout ongoing trials. These experiments had both young and older adults complete a framing task. Younger adults had more cognitive flexibility than older adults. Cognitive flexibility is linked to helping overcome pre-existing biases.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+ Media related to Cognitive biases at Wikimedia Commons
+ Quotations related to Cognitive bias at Wikiquote
+The Roots of Consciousness: To Err Is human
+Cognitive bias in the financial arena (archived 20 June 2006)
+A Visual Study Guide To Cognitive Biases
