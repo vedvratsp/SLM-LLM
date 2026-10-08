@@ -1,0 +1,19 @@
+# Generated data — rebuild with build_rag_corpus.py
+corpus/
+rag_db/
+ 
+# Experiment outputs — commit these intentionally when ready
+# results/
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+ 
+# Secrets
+.env
+ 
+# macOS
+.DS_Store
