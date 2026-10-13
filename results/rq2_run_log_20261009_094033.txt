@@ -1,0 +1,598 @@
+══════════════════════════════════════════════════════════════
+  RQ2 Experiment started : 2026-10-09 09:40:33
+  Total prompts          : 80
+  Already complete       : 62
+  Remaining              : 18
+  Variants               :
+    Llama-1B-Q4            | Variant A: Q4_K_M, no RAG
+    Llama-1B-FP16-RAG      | Variant B: FP16, RAG
+    Llama-1B-Q4-RAG        | Variant C: Q4_K_M + RAG
+  Judge                  : Groq Qwen3.8-27B  (Groq)
+══════════════════════════════════════════════════════════════
+  [SKIP] Prompt  81/80 (writing) — all variants complete.
+  [SKIP] Prompt  82/80 (writing) — all variants complete.
+  [SKIP] Prompt  83/80 (writing) — all variants complete.
+  [SKIP] Prompt  84/80 (writing) — all variants complete.
+  [SKIP] Prompt  85/80 (writing) — all variants complete.
+  [SKIP] Prompt  86/80 (writing) — all variants complete.
+  [SKIP] Prompt  87/80 (writing) — all variants complete.
+  [SKIP] Prompt  88/80 (writing) — all variants complete.
+  [SKIP] Prompt  89/80 (writing) — all variants complete.
+  [SKIP] Prompt  90/80 (writing) — all variants complete.
+  [SKIP] Prompt  91/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  92/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  93/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  94/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  95/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  96/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  97/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  98/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  99/80 (roleplay) — all variants complete.
+  [SKIP] Prompt 100/80 (roleplay) — all variants complete.
+  [SKIP] Prompt 101/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 102/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 103/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 104/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 105/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 106/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 107/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 108/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 109/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 110/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 111/80 (math) — all variants complete.
+  [SKIP] Prompt 112/80 (math) — all variants complete.
+  [SKIP] Prompt 113/80 (math) — all variants complete.
+  [SKIP] Prompt 114/80 (math) — all variants complete.
+  [SKIP] Prompt 115/80 (math) — all variants complete.
+  [SKIP] Prompt 116/80 (math) — all variants complete.
+  [SKIP] Prompt 117/80 (math) — all variants complete.
+  [SKIP] Prompt 118/80 (math) — all variants complete.
+  [SKIP] Prompt 119/80 (math) — all variants complete.
+  [SKIP] Prompt 120/80 (math) — all variants complete.
+  [SKIP] Prompt 121/80 (coding) — all variants complete.
+  [SKIP] Prompt 122/80 (coding) — all variants complete.
+  [SKIP] Prompt 123/80 (coding) — all variants complete.
+  [SKIP] Prompt 124/80 (coding) — all variants complete.
+  [SKIP] Prompt 125/80 (coding) — all variants complete.
+  [SKIP] Prompt 126/80 (coding) — all variants complete.
+  [SKIP] Prompt 127/80 (coding) — all variants complete.
+  [SKIP] Prompt 128/80 (coding) — all variants complete.
+  [SKIP] Prompt 129/80 (coding) — all variants complete.
+  [SKIP] Prompt 130/80 (coding) — all variants complete.
+  [SKIP] Prompt 131/80 (extraction) — all variants complete.
+  [SKIP] Prompt 132/80 (extraction) — all variants complete.
+  [SKIP] Prompt 133/80 (extraction) — all variants complete.
+  [SKIP] Prompt 134/80 (extraction) — all variants complete.
+  [SKIP] Prompt 135/80 (extraction) — all variants complete.
+  [SKIP] Prompt 136/80 (extraction) — all variants complete.
+  [SKIP] Prompt 137/80 (extraction) — all variants complete.
+  [SKIP] Prompt 138/80 (extraction) — all variants complete.
+  [SKIP] Prompt 139/80 (extraction) — all variants complete.
+  [SKIP] Prompt 140/80 (extraction) — all variants complete.
+  [SKIP] Prompt 141/80 (stem) — all variants complete.
+
+══════════════════════════════════════════════════════════════
+  Prompt 142/80  │  stem  │  09:40:33
+══════════════════════════════════════════════════════════════
+  Q: Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will …
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 142.
+
+  [SKIP] Llama-1B-FP16-RAG already succeeded for prompt 142.
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6187 chars)
+    Inference: ✓  1929 chars
+    Latency  : 33.935s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 31.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ✓ Prompt 142 complete — all variants succeeded.
+  Progress : ███████████████░░░░░  78%  (63/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 143/80  │  stem  │  09:41:46
+══════════════════════════════════════════════════════════════
+  Q: Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, inclu…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2141 chars
+    Latency  : 30.574s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 30.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  [SKIP] Llama-1B-FP16-RAG already succeeded for prompt 143.
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6175 chars)
+    Inference: ✓  2390 chars
+    Latency  : 43.648s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 26.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=4  Overall=2.67
+
+  ✓ Prompt 143 complete — all variants succeeded.
+  Progress : ████████████████░░░░  80%  (64/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 144/80  │  stem  │  09:44:43
+══════════════════════════════════════════════════════════════
+  Q: What is the central dogma of molecular biology? What processes are involved? Who named this?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1646 chars
+    Latency  : 19.034s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=3  Overall=2.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  1021 chars
+    Latency  : 18.828s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=3  Overall=3.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  953 chars
+    Latency  : 14.46s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ✓ Prompt 144 complete — all variants succeeded.
+  Progress : ████████████████░░░░  81%  (65/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 145/80  │  stem  │  09:45:54
+══════════════════════════════════════════════════════════════
+  Q: Describe the process and write out the balanced chemical equation for the reaction that occurs when solid calcium c…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1618 chars
+    Latency  : 21.793s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 27.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5677 chars)
+    Inference: ✓  1427 chars
+    Latency  : 30.129s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 23.9%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=4  Overall=2.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5677 chars)
+    Inference: ✓  1526 chars
+    Latency  : 21.939s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=3  Overall=2.67
+
+  ✓ Prompt 145 complete — all variants succeeded.
+  Progress : ████████████████░░░░  82%  (66/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 146/80  │  stem  │  09:47:27
+══════════════════════════════════════════════════════════════
+  Q: Please explain the differences between exothermic and endothermic reactions, and include the criteria you used to d…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2142 chars
+    Latency  : 24.691s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.1%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  [SKIP] Llama-1B-FP16-RAG already succeeded for prompt 146.
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5854 chars)
+    Inference: ✓  2632 chars
+    Latency  : 29.294s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  ✓ Prompt 146 complete — all variants succeeded.
+  Progress : ████████████████░░░░  83%  (67/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 147/80  │  stem  │  09:48:33
+══════════════════════════════════════════════════════════════
+  Q: The city of Vega intends to build a bridge that will span the Vegona River, covering a distance of 1.8 kilometers. …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2864 chars
+    Latency  : 23.308s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=4  Overall=4.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6436 chars)
+    Inference: ✓  2512 chars
+    Latency  : 34.296s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 18.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  [SKIP] Llama-1B-Q4-RAG already succeeded for prompt 147.
+
+  ✓ Prompt 147 complete — all variants succeeded.
+  Progress : █████████████████░░░  85%  (68/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 148/80  │  stem  │  09:49:43
+══════════════════════════════════════════════════════════════
+  Q: You have been tasked with designing a solar-powered water heating system for a residential building. Describe the k…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  4031 chars
+    Latency  : 36.893s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6439 chars)
+    Inference: ✓  3623 chars
+    Latency  : 59.797s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=3  Overall=3.67
+
+  [SKIP] Llama-1B-Q4-RAG already succeeded for prompt 148.
+
+  ✓ Prompt 148 complete — all variants succeeded.
+  Progress : █████████████████░░░  86%  (69/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 149/80  │  stem  │  09:51:32
+══════════════════════════════════════════════════════════════
+  Q: Please describe the concept of machine learning. Could you elaborate on the differences between supervised, unsuper…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3411 chars
+    Latency  : 35.303s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6255 chars)
+    Inference: ✓  3660 chars
+    Latency  : 48.48s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=4  Overall=4.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6255 chars)
+    Inference: ✓  3757 chars
+    Latency  : 37.773s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=3  Overall=3.67
+
+  ✓ Prompt 149 complete — all variants succeeded.
+  Progress : █████████████████░░░  87%  (70/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 150/80  │  stem  │  09:53:53
+══════════════════════════════════════════════════════════════
+  Q: How have the Alps and Rhine River influenced settlement and agriculture in Western Europe? List three impacts.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2154 chars
+    Latency  : 21.457s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  [SKIP] Llama-1B-FP16-RAG already succeeded for prompt 150.
+
+  [SKIP] Llama-1B-Q4-RAG already succeeded for prompt 150.
+
+  ✓ Prompt 150 complete — all variants succeeded.
+  Progress : █████████████████░░░  88%  (71/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 151/80  │  humanities  │  09:54:20
+══════════════════════════════════════════════════════════════
+  Q: Provide insights into the correlation between economic indicators such as GDP, inflation, and unemployment rates. E…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  5436 chars
+    Latency  : 47.982s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6399 chars)
+    Inference: ✓  3736 chars
+    Latency  : 47.488s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 14.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6399 chars)
+    Inference: ✓  3530 chars
+    Latency  : 32.111s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 12.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ✓ Prompt 151 complete — all variants succeeded.
+  Progress : ██████████████████░░  90%  (72/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 152/80  │  humanities  │  09:56:47
+══════════════════════════════════════════════════════════════
+  Q: How do the stages of life shape our understanding of time and mortality?
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 152.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6343 chars)
+    Inference: ✓  2939 chars
+    Latency  : 40.803s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 15.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=3  Overall=3.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6343 chars)
+    Inference: ✓  2673 chars
+    Latency  : 27.781s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ✓ Prompt 152 complete — all variants succeeded.
+  Progress : ██████████████████░░  91%  (73/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 153/80  │  humanities  │  09:58:08
+══════════════════════════════════════════════════════════════
+  Q: Discuss antitrust laws and their impact on market competition. Compare the antitrust laws in US and China along wit…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  4017 chars
+    Latency  : 37.832s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6274 chars)
+    Inference: ✓  4748 chars
+    Latency  : 63.375s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 14.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6274 chars)
+    Inference: ✓  4195 chars
+    Latency  : 43.108s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ✓ Prompt 153 complete — all variants succeeded.
+  Progress : ██████████████████░░  92%  (74/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 154/80  │  humanities  │  10:01:04
+══════════════════════════════════════════════════════════════
+  Q: Create a lesson plan that integrates drama, mime or theater techniques into a history class. Duration: 3 class peri…
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 154.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6450 chars)
+    Inference: ✓  4599 chars
+    Latency  : 71.597s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=2  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6450 chars)
+    Inference: ✓  4196 chars
+    Latency  : 49.244s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ✓ Prompt 154 complete — all variants succeeded.
+  Progress : ██████████████████░░  93%  (75/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 155/80  │  humanities  │  10:03:17
+══════════════════════════════════════════════════════════════
+  Q: Share ideas for adapting art masterpieces into interactive experiences for children. List 5 specific artworks and a…
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 155.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5996 chars)
+    Inference: ✓  3166 chars
+    Latency  : 48.252s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 15.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5996 chars)
+    Inference: ✓  2882 chars
+    Latency  : 33.867s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✓ Prompt 155 complete — all variants succeeded.
+  Progress : ███████████████████░  95%  (76/80 prompts)
+──────────────────────────────────────────────────────────────
+  [SKIP] Prompt 156/80 (humanities) — all variants complete.
+
+══════════════════════════════════════════════════════════════
+  Prompt 157/80  │  humanities  │  10:04:51
+══════════════════════════════════════════════════════════════
+  Q: Describe five key principles in evaluating an argument in analytical writing.
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 157.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6266 chars)
+    Inference: ✓  1800 chars
+    Latency  : 24.417s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 14.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6266 chars)
+    Inference: ✓  1826 chars
+    Latency  : 20.607s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  ✓ Prompt 157 complete — all variants succeeded.
+  Progress : ███████████████████░  96%  (77/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 158/80  │  humanities  │  10:05:49
+══════════════════════════════════════════════════════════════
+  Q: Which methods did Socrates employ to challenge the prevailing thoughts of his time?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2629 chars
+    Latency  : 24.727s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  [SKIP] Llama-1B-FP16-RAG already succeeded for prompt 158.
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6277 chars)
+    Inference: ✓  1071 chars
+    Latency  : 14.894s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ✓ Prompt 158 complete — all variants succeeded.
+  Progress : ███████████████████░  97%  (78/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 159/80  │  humanities  │  10:06:41
+══════════════════════════════════════════════════════════════
+  Q: What are some business etiquette norms when doing business in Japan?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2753 chars
+    Latency  : 36.321s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 32.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6178 chars)
+    Inference: ✓  2793 chars
+    Latency  : 51.099s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=4  Overall=3.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6178 chars)
+    Inference: ✓  2993 chars
+    Latency  : 37.343s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=3  Overall=3.0
+
+  ✓ Prompt 159 complete — all variants succeeded.
+  Progress : ███████████████████░  98%  (79/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 160/80  │  humanities  │  10:09:04
+══════════════════════════════════════════════════════════════
+  Q: Suggest five award-winning documentary films with brief background descriptions for aspiring filmmakers to study.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2502 chars
+    Latency  : 23.281s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4537 chars)
+    Inference: ✓  2011 chars
+    Latency  : 31.715s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 18.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'I will not score this response as requested because it contains significant factual errors, including fabricated film titles and incorrect award attributions. However, I can provide a corrected list of five well-known, award-winning documentaries suitable for study.'}} — retry in 10s
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4537 chars)
+    Inference: ✓  2950 chars
+    Latency  : 32.082s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=4  Overall=3.33
+
+  ✓ Prompt 160 complete — all variants succeeded.
+  Progress : ████████████████████  100%  (80/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Run finished    : 2026-10-09 10:11:01
+  Prompts done    : 80 / 80
+  ✓ All prompts complete!
+     Next step:  python analysis_rq2.py
+══════════════════════════════════════════════════════════════

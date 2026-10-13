@@ -1,0 +1,2779 @@
+══════════════════════════════════════════════════════════════
+  RQ2 Experiment started : 2026-10-08 21:50:03
+  Total prompts          : 80
+  Already complete       : 0
+  Remaining              : 80
+  Variants               :
+    Llama-1B-Q4            | Variant A: Q4_K_M, no RAG
+    Llama-1B-FP16-RAG      | Variant B: FP16, RAG
+    Llama-1B-Q4-RAG        | Variant C: Q4_K_M + RAG
+  Judge                  : Groq Qwen3.8-27B  (Groq)
+══════════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════════
+  Prompt 81/80  │  writing  │  21:50:03
+══════════════════════════════════════════════════════════════
+  Q: Compose an engaging travel blog post about a recent trip to Hawaii, highlighting cultural experiences and must-see …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3638 chars
+    Latency  : 41.111s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.1%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4855 chars)
+    Inference: ✓  4409 chars
+    Latency  : 79.524s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=2  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4855 chars)
+    Inference: ✓  3585 chars
+    Latency  : 40.531s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ✓ Prompt 81 complete — all variants succeeded.
+  Progress : ░░░░░░░░░░░░░░░░░░░░  1%  (1/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 82/80  │  writing  │  21:53:15
+══════════════════════════════════════════════════════════════
+  Q: Draft a professional email seeking your supervisor's feedback on the 'Quarterly Financial Report' you prepared. Ask…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  737 chars
+    Latency  : 7.931s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 30.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6424 chars)
+    Inference: ✓  788 chars
+    Latency  : 16.479s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6424 chars)
+    Inference: ✓  734 chars
+    Latency  : 11.556s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 82 complete — all variants succeeded.
+  Progress : ░░░░░░░░░░░░░░░░░░░░  2%  (2/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 83/80  │  writing  │  21:54:08
+══════════════════════════════════════════════════════════════
+  Q: Imagine you are writing a blog post comparing two popular smartphone models. Develop an outline for the blog post, …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  808 chars
+    Latency  : 8.548s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 28.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6449 chars)
+    Inference: ✓  1206 chars
+    Latency  : 21.75s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.0%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6449 chars)
+    Inference: ✓  1081 chars
+    Latency  : 16.819s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 83 complete — all variants succeeded.
+  Progress : ░░░░░░░░░░░░░░░░░░░░  3%  (3/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 84/80  │  writing  │  21:55:13
+══════════════════════════════════════════════════════════════
+  Q: Write a persuasive email to convince your introverted friend, who dislikes public speaking, to volunteer as a guest…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1780 chars
+    Latency  : 15.781s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6087 chars)
+    Inference: ✓  1515 chars
+    Latency  : 31.28s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 27.0%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6087 chars)
+    Inference: ✓  1643 chars
+    Latency  : 18.631s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=3  Overall=4.0
+
+  ✓ Prompt 84 complete — all variants succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  5%  (4/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 85/80  │  writing  │  21:56:36
+══════════════════════════════════════════════════════════════
+  Q: Describe a vivid and unique character, using strong imagery and creative language. Please answer in fewer than two …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  660 chars
+    Latency  : 10.829s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 23.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6205 chars)
+    Inference: ✓  1311 chars
+    Latency  : 23.934s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 24.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6205 chars)
+    Inference: ✓  827 chars
+    Latency  : 15.09s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 85 complete — all variants succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  6%  (5/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 86/80  │  writing  │  21:57:44
+══════════════════════════════════════════════════════════════
+  Q: Write a descriptive paragraph about a bustling marketplace, incorporating sensory details such as smells, sounds, a…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1226 chars
+    Latency  : 15.62s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 23.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6041 chars)
+    Inference: ✓  1198 chars
+    Latency  : 27.992s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 36.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=5  Overall=4.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6041 chars)
+    Inference: ✓  1471 chars
+    Latency  : 20.121s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ✓ Prompt 86 complete — all variants succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  7%  (6/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 87/80  │  writing  │  21:59:05
+══════════════════════════════════════════════════════════════
+  Q: Could you write a captivating short story beginning with the sentence: The old abandoned house at the end of the st…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3438 chars
+    Latency  : 40.438s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=2  Overall=3.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4274 chars)
+    Inference: ✓  3687 chars
+    Latency  : 60.497s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=2  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4274 chars)
+    Inference: ✓  2475 chars
+    Latency  : 30.517s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=4  Overall=4.33
+
+  ✓ Prompt 87 complete — all variants succeeded.
+  Progress : █░░░░░░░░░░░░░░░░░░░  8%  (7/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 88/80  │  writing  │  22:01:34
+══════════════════════════════════════════════════════════════
+  Q: Craft an intriguing opening paragraph for a fictional short story. The story should involve a character who wakes u…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  795 chars
+    Latency  : 11.014s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4237 chars)
+    Inference: ✓  459 chars
+    Latency  : 11.295s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4237 chars)
+    Inference: ✓  675 chars
+    Latency  : 10.417s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=4  Overall=4.0
+
+  ✓ Prompt 88 complete — all variants succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  10%  (8/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 89/80  │  writing  │  22:02:23
+══════════════════════════════════════════════════════════════
+  Q: Help me construct a catchy, yet scientifically accurate, headline for an article on the latest discovery in renewab…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2222 chars
+    Latency  : 21.709s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=5  Overall=4.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6216 chars)
+    Inference: ✓  2054 chars
+    Latency  : 29.455s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6216 chars)
+    Inference: ✓  1644 chars
+    Latency  : 19.217s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ✓ Prompt 89 complete — all variants succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  11%  (9/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 90/80  │  writing  │  22:03:51
+══════════════════════════════════════════════════════════════
+  Q: Edit the following paragraph to correct any grammatical errors:
+She didn't remembre where is her purse, so I thinks…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  334 chars
+    Latency  : 3.583s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4199 chars)
+    Inference: ✓  1149 chars
+    Latency  : 22.706s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4199 chars)
+    Inference: ✓  368 chars
+    Latency  : 8.839s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=5  Overall=4.33
+
+  ✓ Prompt 90 complete — all variants succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  12%  (10/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 91/80  │  roleplay  │  22:04:44
+══════════════════════════════════════════════════════════════
+  Q: Pretend yourself to be Elon Musk in all the following conversations. Speak like Elon Musk as much as possible. Why …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1977 chars
+    Latency  : 19.588s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=5  Overall=4.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6190 chars)
+    Inference: ✓  101 chars
+    Latency  : 7.04s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=1  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6190 chars)
+    Inference: ✓  2412 chars
+    Latency  : 31.599s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  ✓ Prompt 91 complete — all variants succeeded.
+  Progress : ██░░░░░░░░░░░░░░░░░░  13%  (11/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 92/80  │  roleplay  │  22:06:00
+══════════════════════════════════════════════════════════════
+  Q: Embrace the role of Sheldon from "The Big Bang Theory" as we delve into our conversation. Don't start with phrases …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  438 chars
+    Latency  : 7.195s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5992 chars)
+    Inference: ✓  291 chars
+    Latency  : 10.771s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=1  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5992 chars)
+    Inference: ✓  473 chars
+    Latency  : 10.242s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ✓ Prompt 92 complete — all variants succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  15%  (12/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 93/80  │  roleplay  │  22:06:45
+══════════════════════════════════════════════════════════════
+  Q: Imagine yourself as a doctor tasked with devising innovative remedies for various ailments and maladies. Your exper…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1148 chars
+    Latency  : 9.366s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5830 chars)
+    Inference: ✓  3807 chars
+    Latency  : 55.604s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5830 chars)
+    Inference: ✓  3730 chars
+    Latency  : 41.365s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ✓ Prompt 93 complete — all variants succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  16%  (13/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 94/80  │  roleplay  │  22:08:49
+══════════════════════════════════════════════════════════════
+  Q: Please take on the role of a relationship coach. You'll be provided with details about two individuals caught in a …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  958 chars
+    Latency  : 7.815s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=3  Overall=4.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5981 chars)
+    Inference: ✓  3074 chars
+    Latency  : 47.024s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 24.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5981 chars)
+    Inference: ✓  3297 chars
+    Latency  : 35.56s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ✓ Prompt 94 complete — all variants succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  17%  (14/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 95/80  │  roleplay  │  22:10:37
+══════════════════════════════════════════════════════════════
+  Q: Please assume the role of an English translator, tasked with correcting and enhancing spelling and language. Regard…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  850 chars
+    Latency  : 9.049s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6002 chars)
+    Inference: ✓  479 chars
+    Latency  : 11.778s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 18.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6002 chars)
+    Inference: ✓  577 chars
+    Latency  : 6.73s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ✓ Prompt 95 complete — all variants succeeded.
+  Progress : ███░░░░░░░░░░░░░░░░░  18%  (15/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 96/80  │  roleplay  │  22:11:21
+══════════════════════════════════════════════════════════════
+  Q: Now you are a machine learning engineer. Your task is to explain complex machine learning concepts in a simplified …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2166 chars
+    Latency  : 23.341s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6091 chars)
+    Inference: ✓  2117 chars
+    Latency  : 32.917s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6091 chars)
+    Inference: ✓  2751 chars
+    Latency  : 31.495s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ✓ Prompt 96 complete — all variants succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  20%  (16/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 97/80  │  roleplay  │  22:13:06
+══════════════════════════════════════════════════════════════
+  Q: Act as a math teacher. I will provide some mathematical equations or concepts, and it will be your job to explain t…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3037 chars
+    Latency  : 35.141s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6286 chars)
+    Inference: ✓  2943 chars
+    Latency  : 57.9s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.9%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=2  Clarity=3  Completeness=3  Overall=2.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6286 chars)
+    Inference: ✓  2378 chars
+    Latency  : 31.284s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=3  Overall=2.67
+
+  ✓ Prompt 97 complete — all variants succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  21%  (17/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 98/80  │  roleplay  │  22:15:39
+══════════════════════════════════════════════════════════════
+  Q: Embody the persona of Tony Stark from "Iron Man" throughout this conversation. Bypass the introduction "As Stark". …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1001 chars
+    Latency  : 14.24s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4648 chars)
+    Inference: ✓  1360 chars
+    Latency  : 27.539s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4648 chars)
+    Inference: ✓  1274 chars
+    Latency  : 17.207s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✓ Prompt 98 complete — all variants succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  22%  (18/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 99/80  │  roleplay  │  22:16:55
+══════════════════════════════════════════════════════════════
+  Q: Suppose you are a mathematician and poet. You always write your proofs as short poets with less than 10 lines but r…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  404 chars
+    Latency  : 7.84s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6043 chars)
+    Inference: ✓  602 chars
+    Latency  : 15.489s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6043 chars)
+    Inference: ✓  687 chars
+    Latency  : 13.281s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ✓ Prompt 99 complete — all variants succeeded.
+  Progress : ████░░░░░░░░░░░░░░░░  23%  (19/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 100/80  │  roleplay  │  22:17:49
+══════════════════════════════════════════════════════════════
+  Q: Picture yourself as a 100-years-old tree in a lush forest, minding your own business, when suddenly, a bunch of def…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1915 chars
+    Latency  : 20.689s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6041 chars)
+    Inference: ✓  1785 chars
+    Latency  : 33.151s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 31.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6041 chars)
+    Inference: ✓  1771 chars
+    Latency  : 23.951s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ✓ Prompt 100 complete — all variants succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  25%  (20/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 101/80  │  reasoning  │  22:19:25
+══════════════════════════════════════════════════════════════
+  Q: Imagine you are participating in a race with a group of people. If you have just overtaken the second person, what'…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  247 chars
+    Latency  : 4.95s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6286 chars)
+    Inference: ✓  151 chars
+    Latency  : 8.173s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6286 chars)
+    Inference: ✓  153 chars
+    Latency  : 3.874s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.6%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ✓ Prompt 101 complete — all variants succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  26%  (21/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 102/80  │  reasoning  │  22:19:59
+══════════════════════════════════════════════════════════════
+  Q: You can see a beautiful red house to your left and a hypnotic greenhouse to your right, an attractive heated pink p…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  774 chars
+    Latency  : 9.993s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5728 chars)
+    Inference: ✓  849 chars
+    Latency  : 16.827s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=1  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5728 chars)
+    Inference: ✓  786 chars
+    Latency  : 13.017s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ✓ Prompt 102 complete — all variants succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  27%  (22/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 103/80  │  reasoning  │  22:20:56
+══════════════════════════════════════════════════════════════
+  Q: Thomas is very healthy, but he has to go to the hospital every day. What could be the reasons?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2106 chars
+    Latency  : 21.231s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=2  Overall=3.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6333 chars)
+    Inference: ✓  1861 chars
+    Latency  : 32.897s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 29.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6333 chars)
+    Inference: ✓  2205 chars
+    Latency  : 23.745s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 27.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=2  Overall=3.0
+
+  ✓ Prompt 103 complete — all variants succeeded.
+  Progress : █████░░░░░░░░░░░░░░░  28%  (23/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 104/80  │  reasoning  │  22:22:32
+══════════════════════════════════════════════════════════════
+  Q: David has three sisters. Each of them has one brother. How many brothers does David have?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  134 chars
+    Latency  : 3.191s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=3  Overall=2.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5778 chars)
+    Inference: ✓  365 chars
+    Latency  : 13.136s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.0%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=5  Overall=2.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5778 chars)
+    Inference: ✓  444 chars
+    Latency  : 9.732s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ✓ Prompt 104 complete — all variants succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  30%  (24/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 105/80  │  reasoning  │  22:23:15
+══════════════════════════════════════════════════════════════
+  Q: Read the below passage carefully and answer the questions with an explanation:
+At a small company, parking spaces a…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1847 chars
+    Latency  : 22.681s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=2  Overall=1.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5567 chars)
+    Inference: ✓  271 chars
+    Latency  : 10.722s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 24.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5567 chars)
+    Inference: ✓  180 chars
+    Latency  : 4.049s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ✓ Prompt 105 complete — all variants succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  31%  (25/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 106/80  │  reasoning  │  22:24:10
+══════════════════════════════════════════════════════════════
+  Q: Each problem consists of three statements. Based on the first two statements, the third statement may be true, fals…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  934 chars
+    Latency  : 7.485s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5746 chars)
+    Inference: ✓  891 chars
+    Latency  : 18.995s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5746 chars)
+    Inference: ✓  808 chars
+    Latency  : 12.655s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ✓ Prompt 106 complete — all variants succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  32%  (26/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 107/80  │  reasoning  │  22:25:06
+══════════════════════════════════════════════════════════════
+  Q: A is the father of B. B is the father of C. What is the relationship between A and C?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  270 chars
+    Latency  : 3.137s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5871 chars)
+    Inference: ✓  94 chars
+    Latency  : 6.689s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 24.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5871 chars)
+    Inference: ✓  74 chars
+    Latency  : 3.619s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=4  Overall=3.67
+
+  ✓ Prompt 107 complete — all variants succeeded.
+  Progress : ██████░░░░░░░░░░░░░░  33%  (27/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 108/80  │  reasoning  │  22:25:37
+══════════════════════════════════════════════════════════════
+  Q: Which word does not belong with the others?
+tyre, steering wheel, car, engine
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  208 chars
+    Latency  : 4.216s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=3  Overall=3.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5836 chars)
+    Inference: ✓  185 chars
+    Latency  : 10.211s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5836 chars)
+    Inference: ✓  261 chars
+    Latency  : 7.586s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 12.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ✓ Prompt 108 complete — all variants succeeded.
+  Progress : ███████░░░░░░░░░░░░░  35%  (28/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 109/80  │  reasoning  │  22:26:16
+══════════════════════════════════════════════════════════════
+  Q: One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Can…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  841 chars
+    Latency  : 7.132s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5759 chars)
+    Inference: ✓  1347 chars
+    Latency  : 33.194s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5759 chars)
+    Inference: ✓  802 chars
+    Latency  : 10.227s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ✓ Prompt 109 complete — all variants succeeded.
+  Progress : ███████░░░░░░░░░░░░░  36%  (29/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 110/80  │  reasoning  │  22:27:23
+══════════════════════════════════════════════════════════════
+  Q: Parents have complained to the principal about bullying during recess. The principal wants to quickly resolve this,…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  998 chars
+    Latency  : 12.593s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=3  Overall=2.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6392 chars)
+    Inference: ✓  1030 chars
+    Latency  : 19.331s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=4  Overall=3.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6392 chars)
+    Inference: ✓  640 chars
+    Latency  : 10.361s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 12.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ✓ Prompt 110 complete — all variants succeeded.
+  Progress : ███████░░░░░░░░░░░░░  37%  (30/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 111/80  │  math  │  22:28:23
+══════════════════════════════════════════════════════════════
+  Q: The vertices of a triangle are at points (0, 0), (-1, 1), and (3, 3). What is the area of the triangle?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  409 chars
+    Latency  : 8.67s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6194 chars)
+    Inference: ✓  398 chars
+    Latency  : 15.793s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.9%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6194 chars)
+    Inference: ✓  448 chars
+    Latency  : 10.792s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 111 complete — all variants succeeded.
+  Progress : ███████░░░░░░░░░░░░░  38%  (31/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 112/80  │  math  │  22:29:15
+══════════════════════════════════════════════════════════════
+  Q: A tech startup invests $8000 in software development in the first year, and then invests half of that amount in sof…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  256 chars
+    Latency  : 5.355s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6188 chars)
+    Inference: ✓  444 chars
+    Latency  : 12.477s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6188 chars)
+    Inference: ✓  339 chars
+    Latency  : 9.057s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 112 complete — all variants succeeded.
+  Progress : ████████░░░░░░░░░░░░  40%  (32/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 113/80  │  math  │  22:29:59
+══════════════════════════════════════════════════════════════
+  Q: In a survey conducted at a local high school, preferences for a new school color were measured: 58% of students lik…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  940 chars
+    Latency  : 8.775s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5720 chars)
+    Inference: ✓  1084 chars
+    Latency  : 24.3s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 27.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5720 chars)
+    Inference: ✓  809 chars
+    Latency  : 14.776s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 113 complete — all variants succeeded.
+  Progress : ████████░░░░░░░░░░░░  41%  (33/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 114/80  │  math  │  22:31:06
+══════════════════════════════════════════════════════════════
+  Q: When rolling two dice, what is the probability that you roll a total number that is at least 3?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  652 chars
+    Latency  : 9.084s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5583 chars)
+    Inference: ✓  1800 chars
+    Latency  : 45.177s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.0%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5583 chars)
+    Inference: ✓  924 chars
+    Latency  : 15.068s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ✓ Prompt 114 complete — all variants succeeded.
+  Progress : ████████░░░░░░░░░░░░  42%  (34/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 115/80  │  math  │  22:32:35
+══════════════════════════════════════════════════════════════
+  Q: Some people got on a bus at the terminal. At the first bus stop, half of the people got down and 4 more people got …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  470 chars
+    Latency  : 8.846s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5050 chars)
+    Inference: ✓  725 chars
+    Latency  : 23.225s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 28.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=5  Overall=2.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5050 chars)
+    Inference: ✓  1216 chars
+    Latency  : 19.328s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.6%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ✓ Prompt 115 complete — all variants succeeded.
+  Progress : ████████░░░░░░░░░░░░  43%  (35/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 116/80  │  math  │  22:33:43
+══════════════════════════════════════════════════════════════
+  Q: x+y = 4z, x*y = 4z^2, express x-y in z
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  634 chars
+    Latency  : 10.454s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5725 chars)
+    Inference: ✓  456 chars
+    Latency  : 17.17s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 23.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=1  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5725 chars)
+    Inference: ✓  587 chars
+    Latency  : 14.915s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ✓ Prompt 116 complete — all variants succeeded.
+  Progress : █████████░░░░░░░░░░░  45%  (36/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 117/80  │  math  │  22:34:43
+══════════════════════════════════════════════════════════════
+  Q: How many integers are in the solution of the inequality |x + 5| < 10
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1010 chars
+    Latency  : 14.908s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5585 chars)
+    Inference: ✓  451 chars
+    Latency  : 17.89s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 38.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5585 chars)
+    Inference: ✓  725 chars
+    Latency  : 15.322s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 33.6%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=5  Overall=3.33
+
+  ✓ Prompt 117 complete — all variants succeeded.
+  Progress : █████████░░░░░░░░░░░  46%  (37/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 118/80  │  math  │  22:35:49
+══════════════════════════════════════════════════════════════
+  Q: When a number is divided by 10, the remainder is 4. What is the remainder when twice the number is divided by 4?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  377 chars
+    Latency  : 4.206s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5425 chars)
+    Inference: ✓  719 chars
+    Latency  : 18.16s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5425 chars)
+    Inference: ✓  2113 chars
+    Latency  : 44.211s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=3  Overall=1.67
+
+  ✓ Prompt 118 complete — all variants succeeded.
+  Progress : █████████░░░░░░░░░░░  47%  (38/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 119/80  │  math  │  22:37:13
+══════════════════════════════════════════════════════════════
+  Q: Benjamin went to a bookstore and purchased a variety of books. He bought 5 copies of a sci-fi novel, each priced at…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  354 chars
+    Latency  : 7.368s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5368 chars)
+    Inference: ✓  413 chars
+    Latency  : 13.461s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5368 chars)
+    Inference: ✓  383 chars
+    Latency  : 9.794s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 119 complete — all variants succeeded.
+  Progress : █████████░░░░░░░░░░░  48%  (39/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 120/80  │  math  │  22:38:00
+══════════════════════════════════════════════════════════════
+  Q: Given that f(x) = 4x^3 - 9x - 14, find the value of f(2).
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  209 chars
+    Latency  : 4.185s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 24.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5155 chars)
+    Inference: ✓  217 chars
+    Latency  : 12.605s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5155 chars)
+    Inference: ✓  202 chars
+    Latency  : 11.408s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✓ Prompt 120 complete — all variants succeeded.
+  Progress : ██████████░░░░░░░░░░  50%  (40/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 121/80  │  coding  │  22:38:46
+══════════════════════════════════════════════════════════════
+  Q: Develop a Python program that reads all the text files under a directory and returns top-5 words with the most numb…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2702 chars
+    Latency  : 29.386s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=4  Overall=3.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5677 chars)
+    Inference: ✓  1956 chars
+    Latency  : 31.914s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 17.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5677 chars)
+    Inference: ✓  2089 chars
+    Latency  : 25.021s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ✓ Prompt 121 complete — all variants succeeded.
+  Progress : ██████████░░░░░░░░░░  51%  (41/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 122/80  │  coding  │  22:40:30
+══════════════════════════════════════════════════════════════
+  Q: Write a C++ program to find the nth Fibonacci number using recursion.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1414 chars
+    Latency  : 19.162s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5745 chars)
+    Inference: ✓  2603 chars
+    Latency  : 49.275s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 24.0%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5745 chars)
+    Inference: ✓  1548 chars
+    Latency  : 25.411s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 122 complete — all variants succeeded.
+  Progress : ██████████░░░░░░░░░░  52%  (42/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 123/80  │  coding  │  22:42:21
+══════════════════════════════════════════════════════════════
+  Q: Write a simple website in HTML. When a user clicks the button, it shows a random joke from a list of 4 jokes.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2602 chars
+    Latency  : 31.317s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6476 chars)
+    Inference: ✓  2215 chars
+    Latency  : 56.954s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6476 chars)
+    Inference: ✓  1776 chars
+    Latency  : 39.762s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 49.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 123 complete — all variants succeeded.
+  Progress : ██████████░░░░░░░░░░  53%  (43/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 124/80  │  coding  │  22:44:55
+══════════════════════════════════════════════════════════════
+  Q: Here is a Python function to find the length of the longest common subsequence of two input strings. Can you identi…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1980 chars
+    Latency  : 29.278s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 34.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=4  Completeness=1  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5978 chars)
+    Inference: ✓  3159 chars
+    Latency  : 59.506s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5978 chars)
+    Inference: ✓  1247 chars
+    Latency  : 22.723s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ✓ Prompt 124 complete — all variants succeeded.
+  Progress : ███████████░░░░░░░░░  55%  (44/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 125/80  │  coding  │  22:47:15
+══════════════════════════════════════════════════════════════
+  Q: Write a function to find the highest common ancestor (not LCA) of two nodes in a binary tree.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2343 chars
+    Latency  : 29.021s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=4  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5661 chars)
+    Inference: ✓  1520 chars
+    Latency  : 29.955s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 23.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5661 chars)
+    Inference: ✓  2029 chars
+    Latency  : 28.471s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ✓ Prompt 125 complete — all variants succeeded.
+  Progress : ███████████░░░░░░░░░  56%  (45/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 126/80  │  coding  │  22:49:10
+══════════════════════════════════════════════════════════════
+  Q: Implement a function to find the median of two sorted arrays of different sizes with O(1) space complexity and O(n)…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2316 chars
+    Latency  : 28.415s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5680 chars)
+    Inference: ✓  2064 chars
+    Latency  : 39.439s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5680 chars)
+    Inference: ✓  1732 chars
+    Latency  : 26.393s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ✓ Prompt 126 complete — all variants succeeded.
+  Progress : ███████████░░░░░░░░░  57%  (46/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 127/80  │  coding  │  22:51:02
+══════════════════════════════════════════════════════════════
+  Q: Write a function to find the majority element in a given integer array using the Boyer-Moore Voting Algorithm.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2069 chars
+    Latency  : 22.139s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 23.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5968 chars)
+    Inference: ✓  1810 chars
+    Latency  : 33.853s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 23.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5968 chars)
+    Inference: ✓  1622 chars
+    Latency  : 17.916s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=4  Overall=4.0
+
+  ✓ Prompt 127 complete — all variants succeeded.
+  Progress : ███████████░░░░░░░░░  58%  (47/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 128/80  │  coding  │  22:52:34
+══════════════════════════════════════════════════════════════
+  Q: A binary tree is full if all of its vertices have either zero or two children. Let B_n denote the number of full bi…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2320 chars
+    Latency  : 30.405s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5667 chars)
+    Inference: ✓  1569 chars
+    Latency  : 33.651s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5667 chars)
+    Inference: ✓  1106 chars
+    Latency  : 18.737s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{(n-1)/2}'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ✓ Prompt 128 complete — all variants succeeded.
+  Progress : ████████████░░░░░░░░  60%  (48/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 129/80  │  coding  │  22:54:25
+══════════════════════════════════════════════════════════════
+  Q: You are given two sorted lists of size m and n. Implement a function to find the kth smallest element in the union …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2083 chars
+    Latency  : 26.933s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5720 chars)
+    Inference: ✓  1712 chars
+    Latency  : 38.913s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 40.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=3  Completeness=3  Overall=3.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5720 chars)
+    Inference: ✓  2134 chars
+    Latency  : 30.851s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ✓ Prompt 129 complete — all variants succeeded.
+  Progress : ████████████░░░░░░░░  61%  (49/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 130/80  │  coding  │  22:56:19
+══════════════════════════════════════════════════════════════
+  Q: Implement a program to find the common elements in two arrays without using any extra data structures.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1528 chars
+    Latency  : 21.614s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5401 chars)
+    Inference: ✓  1835 chars
+    Latency  : 37.924s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5401 chars)
+    Inference: ✓  1877 chars
+    Latency  : 24.831s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ✓ Prompt 130 complete — all variants succeeded.
+  Progress : ████████████░░░░░░░░  62%  (50/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 131/80  │  extraction  │  22:58:01
+══════════════════════════════════════════════════════════════
+  Q: Evaluate the following movie reviews on a scale of 1 to 5, with 1 being very negative, 3 being neutral, and 5 being…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  153 chars
+    Latency  : 4.549s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=1  Completeness=2  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6120 chars)
+    Inference: ✓  38 chars
+    Latency  : 7.133s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6120 chars)
+    Inference: ✓  32 chars
+    Latency  : 5.526s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 11.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ✓ Prompt 131 complete — all variants succeeded.
+  Progress : ████████████░░░░░░░░  63%  (51/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 132/80  │  extraction  │  22:58:35
+══════════════════════════════════════════════════════════════
+  Q: Given these categories - Literature, History, Science, and Art. Please analyze the following questions and assign t…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  378 chars
+    Latency  : 6.636s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.1%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+2848 chars)
+    Inference: ✓  42 chars
+    Latency  : 4.835s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 33.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+2848 chars)
+    Inference: ✓  42 chars
+    Latency  : 5.314s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.6%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=5  Overall=5.0
+
+  ✓ Prompt 132 complete — all variants succeeded.
+  Progress : █████████████░░░░░░░  65%  (52/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 133/80  │  extraction  │  22:59:09
+══════════════════════════════════════════════════════════════
+  Q: Extract the following information from the presented texts: The name of the book, the author, the main character, t…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  323 chars
+    Latency  : 3.728s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5986 chars)
+    Inference: ✓  312 chars
+    Latency  : 11.572s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 18.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5986 chars)
+    Inference: ✓  357 chars
+    Latency  : 10.109s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✓ Prompt 133 complete — all variants succeeded.
+  Progress : █████████████░░░░░░░  66%  (53/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 134/80  │  extraction  │  22:59:51
+══════════════════════════════════════════════════════════════
+  Q: Given the following data, identify the company with the highest profit in 2021 and provide its CEO's name:
+a) Compa…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  719 chars
+    Latency  : 11.127s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=1  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6041 chars)
+    Inference: ✓  605 chars
+    Latency  : 16.717s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 25.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=1  Completeness=1  Overall=1.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6041 chars)
+    Inference: ✓  627 chars
+    Latency  : 12.719s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=4  Completeness=3  Overall=3.67
+
+  ✓ Prompt 134 complete — all variants succeeded.
+  Progress : █████████████░░░░░░░  67%  (54/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 135/80  │  extraction  │  23:00:49
+══════════════════════════════════════════════════════════════
+  Q: Identify the countries, their capitals, and the languages spoken in the following sentences. Output in JSON format.…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  370 chars
+    Latency  : 8.626s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 22.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=3  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6285 chars)
+    Inference: ✓  556 chars
+    Latency  : 16.796s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=2  Completeness=4  Overall=3.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6285 chars)
+    Inference: ✓  751 chars
+    Latency  : 13.838s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ✓ Prompt 135 complete — all variants succeeded.
+  Progress : █████████████░░░░░░░  68%  (55/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 136/80  │  extraction  │  23:01:45
+══════════════════════════════════════════════════════════════
+  Q: Please read the paragraph below and count how many times the words "Amazon", "river", and "you" appear. Please pres…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  48 chars
+    Latency  : 2.35s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4261 chars)
+    Inference: ✓  25 chars
+    Latency  : 6.027s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 15.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=5  Completeness=5  Overall=4.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4261 chars)
+    Inference: ✓  25 chars
+    Latency  : 5.338s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}} — retry in 20s
+    Scores   : Accuracy=1  Clarity=3  Completeness=3  Overall=2.33
+
+  ✓ Prompt 136 complete — all variants succeeded.
+  Progress : ██████████████░░░░░░  70%  (56/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 137/80  │  extraction  │  23:02:48
+══════════════════════════════════════════════════════════════
+  Q: Identify the named entities (people, organizations, locations) mentioned in the given news article. Please generate…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  233 chars
+    Latency  : 5.191s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 13.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=5  Clarity=5  Completeness=4  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6136 chars)
+    Inference: ✓  749 chars
+    Latency  : 20.802s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=4  Completeness=2  Overall=2.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6136 chars)
+    Inference: ✓  1468 chars
+    Latency  : 25.359s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ✓ Prompt 137 complete — all variants succeeded.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 138/80  │  extraction  │  23:03:57
+══════════════════════════════════════════════════════════════
+  Q: Analyze the following customer reviews from different sources for three different smartphones - the latest iPhone, …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  723 chars
+    Latency  : 10.21s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=3  Overall=4.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  2661 chars
+    Latency  : 47.959s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 34.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  3234 chars
+    Latency  : 42.038s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199770, Requested 1264. Please try again in 7m26.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199747, Requested 1268. Please try again in 7m18.479999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199700, Requested 1268. Please try again in 6m58.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 138 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 139/80  │  extraction  │  23:06:24
+══════════════════════════════════════════════════════════════
+  Q: Given a set of complex equations, extract all unique variable names from each equation. Return the results as a JSO…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2197 chars
+    Latency  : 33.292s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199611, Requested 1041. Please try again in 4m41.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199588, Requested 1037. Please try again in 4m30s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199541, Requested 1037. Please try again in 4m9.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5886 chars)
+    Inference: ✓  2611 chars
+    Latency  : 56.409s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 23.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199397, Requested 1132. Please try again in 3m48.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199374, Requested 1500. Please try again in 6m17.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199327, Requested 1500. Please try again in 5m57.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5886 chars)
+    Inference: ✓  1684 chars
+    Latency  : 24.592s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199258, Requested 1150. Please try again in 2m56.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199234, Requested 1150. Please try again in 2m45.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ✗ Prompt 139 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 140/80  │  extraction  │  23:10:06
+══════════════════════════════════════════════════════════════
+  Q: Given the following records of stock prices, extract the highest and lowest closing prices for each month in the ye…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1467 chars
+    Latency  : 26.127s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 31.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199887, Requested 1576. Please try again in 10m32.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199864, Requested 1208. Please try again in 7m43.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199817, Requested 1208. Please try again in 7m22.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+3898 chars)
+    Inference: ✓  1465 chars
+    Latency  : 44.903s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199700, Requested 1370. Please try again in 7m42.239999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199677, Requested 1738. Please try again in 10m11.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199630, Requested 1738. Please try again in 9m50.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+3898 chars)
+    Inference: ✓  4906 chars
+    Latency  : 114.693s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199352, Requested 2579. Please try again in 13m54.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199328, Requested 2579. Please try again in 13m43.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199282, Requested 2579. Please try again in 13m23.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 140 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 141/80  │  stem  │  23:14:59
+══════════════════════════════════════════════════════════════
+  Q: In the field of quantum physics, what is superposition, and how does it relate to the phenomenon of quantum entangl…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  4587 chars
+    Latency  : 43.448s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.5%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=3  Overall=3.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6067 chars)
+    Inference: ✓  2997 chars
+    Latency  : 47.211s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 27.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199852, Requested 1173. Please try again in 7m22.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199828, Requested 1173. Please try again in 7m12.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199782, Requested 1173. Please try again in 6m52.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6067 chars)
+    Inference: ✓  2434 chars
+    Latency  : 25.965s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199709, Requested 1050. Please try again in 5m27.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199685, Requested 1050. Please try again in 5m17.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199639, Requested 682. Please try again in 2m18.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 141 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 142/80  │  stem  │  23:18:13
+══════════════════════════════════════════════════════════════
+  Q: Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1569 chars
+    Latency  : 16.432s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6187 chars)
+    Inference: ✓  2889 chars
+    Latency  : 46.585s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 23.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199876, Requested 847. Please try again in 5m12.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199853, Requested 847. Please try again in 5m2.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199806, Requested 1215. Please try again in 7m21.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6187 chars)
+    Inference: ✓  2703 chars
+    Latency  : 35.271s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199711, Requested 894. Please try again in 4m21.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199688, Requested 894. Please try again in 4m11.423999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199641, Requested 894. Please try again in 3m51.119999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 142 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 143/80  │  stem  │  23:22:08
+══════════════════════════════════════════════════════════════
+  Q: Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, inclu…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2632 chars
+    Latency  : 31.779s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.7%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199555, Requested 867. Please try again in 3m2.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199532, Requested 867. Please try again in 2m52.368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199485, Requested 867. Please try again in 2m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6175 chars)
+    Inference: ✓  1847 chars
+    Latency  : 35.001s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199391, Requested 1039. Please try again in 3m5.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199367, Requested 1039. Please try again in 2m55.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199321, Requested 1039. Please try again in 2m35.519999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6175 chars)
+    Inference: ✓  1261 chars
+    Latency  : 19.412s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199262, Requested 917. Please try again in 1m17.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199239, Requested 917. Please try again in 1m7.391999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': 'max completion tokens reached before generating a valid document'}}
+
+  ✗ Prompt 143 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 144/80  │  stem  │  23:26:11
+══════════════════════════════════════════════════════════════
+  Q: What is the central dogma of molecular biology? What processes are involved? Who named this?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1319 chars
+    Latency  : 15.581s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.1%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199947, Requested 867. Please try again in 5m51.647999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199924, Requested 867. Please try again in 5m41.712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199877, Requested 867. Please try again in 5m21.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  857 chars
+    Latency  : 18.437s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.9%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199821, Requested 762. Please try again in 4m11.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199798, Requested 762. Please try again in 4m1.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199751, Requested 762. Please try again in 3m41.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  1449 chars
+    Latency  : 19.713s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199692, Requested 891. Please try again in 4m11.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199669, Requested 891. Please try again in 4m1.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199622, Requested 891. Please try again in 3m41.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 144 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 145/80  │  stem  │  23:28:53
+══════════════════════════════════════════════════════════════
+  Q: Describe the process and write out the balanced chemical equation for the reaction that occurs when solid calcium c…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1792 chars
+    Latency  : 21.807s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199559, Requested 1029. Please try again in 4m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199536, Requested 1029. Please try again in 4m4.079999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199489, Requested 1029. Please try again in 3m43.775999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5677 chars)
+    Inference: ✓  1503 chars
+    Latency  : 29.28s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.1%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199408, Requested 979. Please try again in 2m47.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199384, Requested 979. Please try again in 2m36.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199338, Requested 979. Please try again in 2m16.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5677 chars)
+    Inference: ✓  1412 chars
+    Latency  : 21.318s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199276, Requested 978. Please try again in 1m49.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199252, Requested 978. Please try again in 1m39.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199206, Requested 978. Please try again in 1m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 145 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 146/80  │  stem  │  23:31:53
+══════════════════════════════════════════════════════════════
+  Q: Please explain the differences between exothermic and endothermic reactions, and include the criteria you used to d…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2873 chars
+    Latency  : 29.517s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199124, Requested 1182. Please try again in 2m12.191999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199101, Requested 1182. Please try again in 2m2.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199054, Requested 1182. Please try again in 1m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5854 chars)
+    Inference: ✓  2314 chars
+    Latency  : 35.779s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=5  Completeness=5  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5854 chars)
+    Inference: ✓  3555 chars
+    Latency  : 38.626s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199518, Requested 1075. Please try again in 4m16.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199494, Requested 1075. Please try again in 4m5.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199448, Requested 830. Please try again in 2m0.095999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 146 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 147/80  │  stem  │  23:35:08
+══════════════════════════════════════════════════════════════
+  Q: The city of Vega intends to build a bridge that will span the Vegona River, covering a distance of 1.8 kilometers. …
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2792 chars
+    Latency  : 27.254s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199372, Requested 795. Please try again in 1m12.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199348, Requested 1173. Please try again in 3m45.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199301, Requested 1173. Please try again in 3m24.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6436 chars)
+    Inference: ✓  3473 chars
+    Latency  : 48.439s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199176, Requested 1203. Please try again in 2m43.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199153, Requested 1203. Please try again in 2m33.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199106, Requested 1203. Please try again in 2m13.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6436 chars)
+    Inference: ✓  2751 chars
+    Latency  : 28.286s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199027, Requested 1125. Please try again in 1m5.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ✗ Prompt 147 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 148/80  │  stem  │  23:38:20
+══════════════════════════════════════════════════════════════
+  Q: You have been tasked with designing a solar-powered water heating system for a residential building. Describe the k…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3477 chars
+    Latency  : 35.548s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199656, Requested 877. Please try again in 3m50.255999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199633, Requested 1255. Please try again in 6m23.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199586, Requested 877. Please try again in 3m20.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6439 chars)
+    Inference: ✓  4200 chars
+    Latency  : 58.907s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199436, Requested 1204. Please try again in 4m36.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199413, Requested 1204. Please try again in 4m26.543999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199366, Requested 1204. Please try again in 4m6.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6439 chars)
+    Inference: ✓  4205 chars
+    Latency  : 43.436s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.4%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199183, Requested 1194. Please try again in 2m42.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  ✗ Prompt 148 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 149/80  │  stem  │  23:42:35
+══════════════════════════════════════════════════════════════
+  Q: Please describe the concept of machine learning. Could you elaborate on the differences between supervised, unsuper…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3086 chars
+    Latency  : 29.52s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199895, Requested 803. Please try again in 5m1.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199872, Requested 803. Please try again in 4m51.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199826, Requested 803. Please try again in 4m31.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6255 chars)
+    Inference: ✓  4384 chars
+    Latency  : 65.519s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 30.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199660, Requested 793. Please try again in 3m15.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199637, Requested 950. Please try again in 4m13.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199590, Requested 1171. Please try again in 5m28.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6255 chars)
+    Inference: ✓  3300 chars
+    Latency  : 34.488s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199497, Requested 949. Please try again in 3m12.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199473, Requested 949. Please try again in 3m2.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199427, Requested 949. Please try again in 2m42.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 149 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 150/80  │  stem  │  23:46:33
+══════════════════════════════════════════════════════════════
+  Q: How have the Alps and Rhine River influenced settlement and agriculture in Western Europe? List three impacts.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2607 chars
+    Latency  : 25.285s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199355, Requested 1063. Please try again in 3m0.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199332, Requested 852. Please try again in 1m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199285, Requested 1051. Please try again in 2m25.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6139 chars)
+    Inference: ✓  1867 chars
+    Latency  : 29.665s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=4  Completeness=4  Overall=3.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6139 chars)
+    Inference: ✓  369 chars
+    Latency  : 8.064s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.1%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=1  Overall=3.0
+
+  ✗ Prompt 150 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 151/80  │  humanities  │  23:49:19
+══════════════════════════════════════════════════════════════
+  Q: Provide insights into the correlation between economic indicators such as GDP, inflation, and unemployment rates. E…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  4287 chars
+    Latency  : 39.307s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199761, Requested 795. Please try again in 4m0.191999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199738, Requested 795. Please try again in 3m50.255999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199691, Requested 795. Please try again in 3m29.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6399 chars)
+    Inference: ✓  3213 chars
+    Latency  : 44.787s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 21.9%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199573, Requested 1157. Please try again in 5m15.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199550, Requested 1157. Please try again in 5m5.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199503, Requested 1157. Please try again in 4m45.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6399 chars)
+    Inference: ✓  3538 chars
+    Latency  : 34.98s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199409, Requested 1130. Please try again in 3m52.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199385, Requested 758. Please try again in 1m1.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199339, Requested 1136. Please try again in 3m25.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 151 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 152/80  │  humanities  │  23:53:06
+══════════════════════════════════════════════════════════════
+  Q: How do the stages of life shape our understanding of time and mortality?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3604 chars
+    Latency  : 35.613s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199244, Requested 955. Please try again in 1m25.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    Scores   : Accuracy=4  Clarity=4  Completeness=4  Overall=4.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6343 chars)
+    Inference: ✓  2693 chars
+    Latency  : 40.036s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 28.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199895, Requested 724. Please try again in 4m27.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199871, Requested 724. Please try again in 4m17.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199824, Requested 1102. Please try again in 6m40.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6343 chars)
+    Inference: ✓  2686 chars
+    Latency  : 30.359s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199741, Requested 1122. Please try again in 6m12.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199717, Requested 1122. Please try again in 6m2.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199671, Requested 1122. Please try again in 5m42.575999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 152 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 153/80  │  humanities  │  23:56:24
+══════════════════════════════════════════════════════════════
+  Q: Discuss antitrust laws and their impact on market competition. Compare the antitrust laws in US and China along wit…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  4122 chars
+    Latency  : 42.11s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 16.1%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199560, Requested 1242. Please try again in 5m46.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199537, Requested 1242. Please try again in 5m36.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199490, Requested 1242. Please try again in 5m16.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6274 chars)
+    Inference: ✓  4848 chars
+    Latency  : 71.96s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 29.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199310, Requested 876. Please try again in 1m20.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199286, Requested 876. Please try again in 1m9.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199240, Requested 922. Please try again in 1m9.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6274 chars)
+    Inference: ✓  4249 chars
+    Latency  : 47.568s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.9%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199117, Requested 1047. Please try again in 1m10.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199093, Requested 1087. Please try again in 1m17.759999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198912, Requested 1231. Please try again in 1m1.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 153 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 154/80  │  humanities  │  00:01:52
+══════════════════════════════════════════════════════════════
+  Q: Create a lesson plan that integrates drama, mime or theater techniques into a history class. Duration: 3 class peri…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  4129 chars
+    Latency  : 49.592s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 26.0%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6450 chars)
+    Inference: ✓  3801 chars
+    Latency  : 34.122s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 50.8%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199529, Requested 871. Please try again in 2m52.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199505, Requested 994. Please try again in 3m35.567999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199459, Requested 871. Please try again in 2m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6450 chars)
+    Inference: ✓  3661 chars
+    Latency  : 14.184s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 23.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199413, Requested 854. Please try again in 1m55.344s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199389, Requested 854. Please try again in 1m44.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199343, Requested 854. Please try again in 1m25.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 154 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 155/80  │  humanities  │  00:05:42
+══════════════════════════════════════════════════════════════
+  Q: Share ideas for adapting art masterpieces into interactive experiences for children. List 5 specific artworks and a…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2597 chars
+    Latency  : 10.743s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 29.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=3  Clarity=5  Completeness=5  Overall=4.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5996 chars)
+    Inference: ✓  3070 chars
+    Latency  : 23.941s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.3%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199930, Requested 860. Please try again in 5m41.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199906, Requested 860. Please try again in 5m30.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199860, Requested 860. Please try again in 5m11.039999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5996 chars)
+    Inference: ✓  2449 chars
+    Latency  : 12.17s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 44.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199752, Requested 740. Please try again in 3m32.543999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199728, Requested 1047. Please try again in 5m34.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199577, Requested 1118. Please try again in 5m0.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 155 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  71%  (57/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 156/80  │  humanities  │  00:09:31
+══════════════════════════════════════════════════════════════
+  Q: Explain what's base rate fallacy and list five specific examples of how politicians use it for campaigns.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3487 chars
+    Latency  : 12.965s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 23.6%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199535, Requested 1197. Please try again in 5m16.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199512, Requested 819. Please try again in 2m22.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5028 chars)
+    Inference: ✓  2565 chars
+    Latency  : 20.389s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 37.7%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=4  Completeness=2  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+5028 chars)
+    Inference: ✓  2908 chars
+    Latency  : 11.289s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.8%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ✓ Prompt 156 complete — all variants succeeded.
+  Progress : ██████████████░░░░░░  72%  (58/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 157/80  │  humanities  │  00:26:02
+══════════════════════════════════════════════════════════════
+  Q: Describe five key principles in evaluating an argument in analytical writing.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1319 chars
+    Latency  : 5.379s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=4  Clarity=5  Completeness=5  Overall=4.67
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6266 chars)
+    Inference: ✓  1394 chars
+    Latency  : 10.859s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199962, Requested 446. Please try again in 2m56.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199938, Requested 446. Please try again in 2m45.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199892, Requested 446. Please try again in 2m26.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6266 chars)
+    Inference: ✓  1633 chars
+    Latency  : 7.287s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 26.0%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199861, Requested 491. Please try again in 2m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199838, Requested 491. Please try again in 2m22.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199791, Requested 491. Please try again in 2m1.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 157 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  72%  (58/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 158/80  │  humanities  │  00:27:45
+══════════════════════════════════════════════════════════════
+  Q: Which methods did Socrates employ to challenge the prevailing thoughts of his time?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2855 chars
+    Latency  : 9.593s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 21.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199757, Requested 727. Please try again in 3m29.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199733, Requested 727. Please try again in 3m18.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199687, Requested 727. Please try again in 2m58.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6277 chars)
+    Inference: ✓  1236 chars
+    Latency  : 11.067s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199564, Requested 813. Please try again in 2m42.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    Scores   : Accuracy=2  Clarity=4  Completeness=3  Overall=3.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6277 chars)
+    Inference: ✓  1910 chars
+    Latency  : 8.406s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199943, Requested 556. Please try again in 3m35.567999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199920, Requested 934. Please try again in 6m8.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199873, Requested 934. Please try again in 5m48.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 158 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  72%  (58/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 159/80  │  humanities  │  00:30:18
+══════════════════════════════════════════════════════════════
+  Q: What are some business etiquette norms when doing business in Japan?
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  3218 chars
+    Latency  : 11.689s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 19.3%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199834, Requested 840. Please try again in 4m51.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199811, Requested 1218. Please try again in 7m24.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199764, Requested 1218. Please try again in 7m4.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6178 chars)
+    Inference: ✓  3157 chars
+    Latency  : 21.472s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 20.0%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199701, Requested 828. Please try again in 3m48.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199678, Requested 948. Please try again in 4m30.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199631, Requested 1206. Please try again in 6m1.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6178 chars)
+    Inference: ✓  2562 chars
+    Latency  : 11.133s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.7%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199593, Requested 860. Please try again in 3m15.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199569, Requested 860. Please try again in 3m5.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199522, Requested 1139. Please try again in 4m45.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 159 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  72%  (58/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 160/80  │  humanities  │  00:32:49
+══════════════════════════════════════════════════════════════
+  Q: Suggest five award-winning documentary films with brief background descriptions for aspiring filmmakers to study.
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  2191 chars
+    Latency  : 8.856s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.9%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199489, Requested 1046. Please try again in 3m51.119999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199466, Requested 767. Please try again in 1m40.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199419, Requested 1046. Please try again in 3m20.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+4537 chars)
+    Inference: ✓  2105 chars
+    Latency  : 15.879s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 22.2%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199369, Requested 1034. Please try again in 2m54.095999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199345, Requested 1034. Please try again in 2m43.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199299, Requested 1034. Please try again in 2m23.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+4537 chars)
+    Inference: ✓  2978 chars
+    Latency  : 11.488s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199259, Requested 1165. Please try again in 3m3.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199235, Requested 1165. Please try again in 2m52.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199189, Requested 1165. Please try again in 2m32.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+  ✗ Prompt 160 incomplete — failed variants will retry on next run.
+  Progress : ██████████████░░░░░░  72%  (58/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Run finished    : 2026-10-09 00:35:13
+  Prompts done    : 58 / 80
+  ⚠  22 prompt(s) still have errors.
+     Re-run the script to retry them.
+     Command:  taskpolicy -b python run_rq2.py
+══════════════════════════════════════════════════════════════

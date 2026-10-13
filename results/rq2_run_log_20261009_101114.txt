@@ -1,0 +1,98 @@
+══════════════════════════════════════════════════════════════
+  RQ2 Experiment started : 2026-10-09 10:11:14
+  Total prompts          : 80
+  Already complete       : 80
+  Remaining              : 0
+  Variants               :
+    Llama-1B-Q4            | Variant A: Q4_K_M, no RAG
+    Llama-1B-FP16-RAG      | Variant B: FP16, RAG
+    Llama-1B-Q4-RAG        | Variant C: Q4_K_M + RAG
+  Judge                  : Groq Qwen3.8-27B  (Groq)
+══════════════════════════════════════════════════════════════
+  [SKIP] Prompt  81/80 (writing) — all variants complete.
+  [SKIP] Prompt  82/80 (writing) — all variants complete.
+  [SKIP] Prompt  83/80 (writing) — all variants complete.
+  [SKIP] Prompt  84/80 (writing) — all variants complete.
+  [SKIP] Prompt  85/80 (writing) — all variants complete.
+  [SKIP] Prompt  86/80 (writing) — all variants complete.
+  [SKIP] Prompt  87/80 (writing) — all variants complete.
+  [SKIP] Prompt  88/80 (writing) — all variants complete.
+  [SKIP] Prompt  89/80 (writing) — all variants complete.
+  [SKIP] Prompt  90/80 (writing) — all variants complete.
+  [SKIP] Prompt  91/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  92/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  93/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  94/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  95/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  96/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  97/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  98/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  99/80 (roleplay) — all variants complete.
+  [SKIP] Prompt 100/80 (roleplay) — all variants complete.
+  [SKIP] Prompt 101/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 102/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 103/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 104/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 105/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 106/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 107/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 108/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 109/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 110/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 111/80 (math) — all variants complete.
+  [SKIP] Prompt 112/80 (math) — all variants complete.
+  [SKIP] Prompt 113/80 (math) — all variants complete.
+  [SKIP] Prompt 114/80 (math) — all variants complete.
+  [SKIP] Prompt 115/80 (math) — all variants complete.
+  [SKIP] Prompt 116/80 (math) — all variants complete.
+  [SKIP] Prompt 117/80 (math) — all variants complete.
+  [SKIP] Prompt 118/80 (math) — all variants complete.
+  [SKIP] Prompt 119/80 (math) — all variants complete.
+  [SKIP] Prompt 120/80 (math) — all variants complete.
+  [SKIP] Prompt 121/80 (coding) — all variants complete.
+  [SKIP] Prompt 122/80 (coding) — all variants complete.
+  [SKIP] Prompt 123/80 (coding) — all variants complete.
+  [SKIP] Prompt 124/80 (coding) — all variants complete.
+  [SKIP] Prompt 125/80 (coding) — all variants complete.
+  [SKIP] Prompt 126/80 (coding) — all variants complete.
+  [SKIP] Prompt 127/80 (coding) — all variants complete.
+  [SKIP] Prompt 128/80 (coding) — all variants complete.
+  [SKIP] Prompt 129/80 (coding) — all variants complete.
+  [SKIP] Prompt 130/80 (coding) — all variants complete.
+  [SKIP] Prompt 131/80 (extraction) — all variants complete.
+  [SKIP] Prompt 132/80 (extraction) — all variants complete.
+  [SKIP] Prompt 133/80 (extraction) — all variants complete.
+  [SKIP] Prompt 134/80 (extraction) — all variants complete.
+  [SKIP] Prompt 135/80 (extraction) — all variants complete.
+  [SKIP] Prompt 136/80 (extraction) — all variants complete.
+  [SKIP] Prompt 137/80 (extraction) — all variants complete.
+  [SKIP] Prompt 138/80 (extraction) — all variants complete.
+  [SKIP] Prompt 139/80 (extraction) — all variants complete.
+  [SKIP] Prompt 140/80 (extraction) — all variants complete.
+  [SKIP] Prompt 141/80 (stem) — all variants complete.
+  [SKIP] Prompt 142/80 (stem) — all variants complete.
+  [SKIP] Prompt 143/80 (stem) — all variants complete.
+  [SKIP] Prompt 144/80 (stem) — all variants complete.
+  [SKIP] Prompt 145/80 (stem) — all variants complete.
+  [SKIP] Prompt 146/80 (stem) — all variants complete.
+  [SKIP] Prompt 147/80 (stem) — all variants complete.
+  [SKIP] Prompt 148/80 (stem) — all variants complete.
+  [SKIP] Prompt 149/80 (stem) — all variants complete.
+  [SKIP] Prompt 150/80 (stem) — all variants complete.
+  [SKIP] Prompt 151/80 (humanities) — all variants complete.
+  [SKIP] Prompt 152/80 (humanities) — all variants complete.
+  [SKIP] Prompt 153/80 (humanities) — all variants complete.
+  [SKIP] Prompt 154/80 (humanities) — all variants complete.
+  [SKIP] Prompt 155/80 (humanities) — all variants complete.
+  [SKIP] Prompt 156/80 (humanities) — all variants complete.
+  [SKIP] Prompt 157/80 (humanities) — all variants complete.
+  [SKIP] Prompt 158/80 (humanities) — all variants complete.
+  [SKIP] Prompt 159/80 (humanities) — all variants complete.
+  [SKIP] Prompt 160/80 (humanities) — all variants complete.
+
+══════════════════════════════════════════════════════════════
+  Run finished    : 2026-10-09 10:11:14
+  Prompts done    : 80 / 80
+  ✓ All prompts complete!
+     Next step:  python analysis_rq2.py
+══════════════════════════════════════════════════════════════

@@ -1,0 +1,235 @@
+══════════════════════════════════════════════════════════════
+  RQ2 Experiment started : 2026-10-09 01:18:56
+  Total prompts          : 80
+  Already complete       : 58
+  Remaining              : 22
+  Variants               :
+    Llama-1B-Q4            | Variant A: Q4_K_M, no RAG
+    Llama-1B-FP16-RAG      | Variant B: FP16, RAG
+    Llama-1B-Q4-RAG        | Variant C: Q4_K_M + RAG
+  Judge                  : Groq Qwen3.8-27B  (Groq)
+══════════════════════════════════════════════════════════════
+  [SKIP] Prompt  81/80 (writing) — all variants complete.
+  [SKIP] Prompt  82/80 (writing) — all variants complete.
+  [SKIP] Prompt  83/80 (writing) — all variants complete.
+  [SKIP] Prompt  84/80 (writing) — all variants complete.
+  [SKIP] Prompt  85/80 (writing) — all variants complete.
+  [SKIP] Prompt  86/80 (writing) — all variants complete.
+  [SKIP] Prompt  87/80 (writing) — all variants complete.
+  [SKIP] Prompt  88/80 (writing) — all variants complete.
+  [SKIP] Prompt  89/80 (writing) — all variants complete.
+  [SKIP] Prompt  90/80 (writing) — all variants complete.
+  [SKIP] Prompt  91/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  92/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  93/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  94/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  95/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  96/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  97/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  98/80 (roleplay) — all variants complete.
+  [SKIP] Prompt  99/80 (roleplay) — all variants complete.
+  [SKIP] Prompt 100/80 (roleplay) — all variants complete.
+  [SKIP] Prompt 101/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 102/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 103/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 104/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 105/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 106/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 107/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 108/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 109/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 110/80 (reasoning) — all variants complete.
+  [SKIP] Prompt 111/80 (math) — all variants complete.
+  [SKIP] Prompt 112/80 (math) — all variants complete.
+  [SKIP] Prompt 113/80 (math) — all variants complete.
+  [SKIP] Prompt 114/80 (math) — all variants complete.
+  [SKIP] Prompt 115/80 (math) — all variants complete.
+  [SKIP] Prompt 116/80 (math) — all variants complete.
+  [SKIP] Prompt 117/80 (math) — all variants complete.
+  [SKIP] Prompt 118/80 (math) — all variants complete.
+  [SKIP] Prompt 119/80 (math) — all variants complete.
+  [SKIP] Prompt 120/80 (math) — all variants complete.
+  [SKIP] Prompt 121/80 (coding) — all variants complete.
+  [SKIP] Prompt 122/80 (coding) — all variants complete.
+  [SKIP] Prompt 123/80 (coding) — all variants complete.
+  [SKIP] Prompt 124/80 (coding) — all variants complete.
+  [SKIP] Prompt 125/80 (coding) — all variants complete.
+  [SKIP] Prompt 126/80 (coding) — all variants complete.
+  [SKIP] Prompt 127/80 (coding) — all variants complete.
+  [SKIP] Prompt 128/80 (coding) — all variants complete.
+  [SKIP] Prompt 129/80 (coding) — all variants complete.
+  [SKIP] Prompt 130/80 (coding) — all variants complete.
+  [SKIP] Prompt 131/80 (extraction) — all variants complete.
+  [SKIP] Prompt 132/80 (extraction) — all variants complete.
+  [SKIP] Prompt 133/80 (extraction) — all variants complete.
+  [SKIP] Prompt 134/80 (extraction) — all variants complete.
+  [SKIP] Prompt 135/80 (extraction) — all variants complete.
+  [SKIP] Prompt 136/80 (extraction) — all variants complete.
+  [SKIP] Prompt 137/80 (extraction) — all variants complete.
+
+══════════════════════════════════════════════════════════════
+  Prompt 138/80  │  extraction  │  01:18:56
+══════════════════════════════════════════════════════════════
+  Q: Analyze the following customer reviews from different sources for three different smartphones - the latest iPhone, …
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 138.
+
+  [SKIP] Llama-1B-FP16-RAG already succeeded for prompt 138.
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6389 chars)
+    Inference: ✓  253 chars
+    Latency  : 12.069s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 20.6%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=2  Overall=1.67
+
+  ✓ Prompt 138 complete — all variants succeeded.
+  Progress : ██████████████░░░░░░  73%  (59/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 139/80  │  extraction  │  01:19:51
+══════════════════════════════════════════════════════════════
+  Q: Given a set of complex equations, extract all unique variable names from each equation. Return the results as a JSO…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  634 chars
+    Latency  : 12.324s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 18.4%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=2  Completeness=1  Overall=1.33
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+5886 chars)
+    Inference: ✓  1896 chars
+    Latency  : 39.146s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 19.6%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=2  Clarity=3  Completeness=2  Overall=2.33
+
+  [SKIP] Llama-1B-Q4-RAG already succeeded for prompt 139.
+
+  ✓ Prompt 139 complete — all variants succeeded.
+  Progress : ███████████████░░░░░  75%  (60/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 140/80  │  extraction  │  01:20:55
+══════════════════════════════════════════════════════════════
+  Q: Given the following records of stock prices, extract the highest and lowest closing prices for each month in the ye…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1867 chars
+    Latency  : 30.372s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 14.8%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+3898 chars)
+    Inference: ✓  2483 chars
+    Latency  : 57.355s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 14.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+3898 chars)
+    Inference: ✓  1448 chars
+    Latency  : 28.102s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 15.3%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=1  Overall=1.67
+
+  ✓ Prompt 140 complete — all variants succeeded.
+  Progress : ███████████████░░░░░  76%  (61/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 141/80  │  stem  │  01:23:09
+══════════════════════════════════════════════════════════════
+  Q: In the field of quantum physics, what is superposition, and how does it relate to the phenomenon of quantum entangl…
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 141.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6067 chars)
+    Inference: ✓  2306 chars
+    Latency  : 34.992s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 16.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=3  Overall=2.33
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6067 chars)
+    Inference: ✓  2237 chars
+    Latency  : 26.391s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 17.5%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199259, Requested 1020. Please try again in 2m0.527999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m3jgtqz5e4xaw0ezbdgd0n19` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199236, Requested 1020. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} — retry in 20s
+    Scores   : Accuracy=4  Clarity=5  Completeness=4  Overall=4.33
+
+  ✓ Prompt 141 complete — all variants succeeded.
+  Progress : ███████████████░░░░░  77%  (62/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 142/80  │  stem  │  03:25:37
+══════════════════════════════════════════════════════════════
+  Q: Consider a satellite that is in a circular orbit around the Earth. The speed of the satellite decreases. What will …
+
+  [SKIP] Llama-1B-Q4 already succeeded for prompt 142.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6187 chars)
+    Inference: ✓  1620 chars
+    Latency  : 34.755s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 32.5%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{GM/r}$. If $v$ decreases, $r$ must decrease. This part is accidentally correct.\n   - Claim 4: "...but its period of revolution remains unchanged." - False. The period $T = 2\\pi \\sqrt{r^3/GM}'}} — retry in 10s
+    Scores   : Accuracy=1  Clarity=3  Completeness=4  Overall=2.67
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6187 chars)
+    Inference: ✓  3684 chars
+    Latency  : 71.407s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 30.2%
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Connection error. — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Connection error. — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Connection error.
+
+  ✗ Prompt 142 incomplete — failed variants will retry on next run.
+  Progress : ███████████████░░░░░  77%  (62/80 prompts)
+──────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════
+  Prompt 143/80  │  stem  │  07:23:26
+══════════════════════════════════════════════════════════════
+  Q: Photosynthesis is a vital process for life on Earth. Could you outline the two main stages of photosynthesis, inclu…
+
+  ▶ [1/3] Llama-1B-Q4  (Variant A: Q4_K_M, no RAG)
+    RAG      : disabled
+    Inference: ✓  1947 chars
+    Latency  : 30.917s  │  Peak RAM : 1440.4 MB  │  Avg CPU  : 30.2%
+    Memory   : unloading Llama-1B-Q4 from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    ⚠  Judge attempt 1/3 failed: Connection error. — retry in 10s
+    ⚠  Judge attempt 2/3 failed: Connection error. — retry in 20s
+    Judge    : ✗ failed — Judge failed after 3 attempts: Connection error.
+
+  ▶ [2/3] Llama-1B-FP16-RAG  (Variant B: FP16, RAG)
+    RAG      : ✓ context prepended (+6175 chars)
+    Inference: ✓  1110 chars
+    Latency  : 29.973s  │  Peak RAM : 2545.3 MB  │  Avg CPU  : 26.4%
+    Memory   : unloading Llama-1B-FP16-RAG from Ollama…
+    Judge    : Groq Qwen3.8-27B
+    Scores   : Accuracy=1  Clarity=3  Completeness=2  Overall=2.0
+
+  ▶ [3/3] Llama-1B-Q4-RAG  (Variant C: Q4_K_M + RAG)
+    RAG      : ✓ context prepended (+6175 chars)
+    Memory   : unloading Llama-1B-Q4-RAG from Ollama…
