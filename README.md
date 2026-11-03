@@ -1,4 +1,4 @@
-# Comparing & Augmenting LLM Capabilities on Low-Spec Hardware
+# Comparing & Augmenting LLM Capabilities on Low-Spec Hardware [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/vedvratsp/SLM-LLM)
 
 **MSc Artificial Intelligence — TU Dublin, 2026**  
 Vedvrat Singh Parihar · A00051088  
