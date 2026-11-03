@@ -1,5 +1,5 @@
 # Comparing & Augmenting LLM Capabilities on Low-Spec Hardware [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/vedvratsp/SLM-LLM)
-<a href="https://deepwiki.com/vedvratsp/SLM-LLM"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
+
 **MSc Artificial Intelligence — TU Dublin, 2026**  
 Vedvrat Singh Parihar · A00051088  
 Supervisor review repository
